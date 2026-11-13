@@ -1,6 +1,6 @@
 # Hackathon IA for Impact 2026 — Guide pratique avec IBM Bob
 
-> La Mêlée Numérique · Toulouse · 9–10 octobre 2026
+> ESGI_Arrow_IBM_2026
 > Dix fiches pour préparer son environnement, construire un MVP en équipe et présenter une démonstration crédible.
 
 ## 1. À quoi sert ce dépôt ?
@@ -30,8 +30,8 @@ Les fiches sont consultables directement sur GitHub. Pour les ouvrir dans Bob, t
 ```bash
 mkdir -p ~/Documents/BobIA
 cd ~/Documents/BobIA
-git clone https://github.com/brostagni/melee_hackathon_2026.git
-cd melee_hackathon_2026
+git clone https://github.com/05091075/ESGI_Arrow_IBM_2026.git
+cd ESGI_Arrow_IBM_2026
 ```
 
 **Windows PowerShell :**
@@ -39,11 +39,11 @@ cd melee_hackathon_2026
 ```powershell
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\Documents\BobIA"
 Set-Location "$env:USERPROFILE\Documents\BobIA"
-git clone https://github.com/brostagni/melee_hackathon_2026.git
-Set-Location melee_hackathon_2026
+git clone https://github.com/05091075/ESGI_Arrow_IBM_2026.git
+Set-Location ESGI_Arrow_IBM_2026
 ```
 
-Dans Bob, sélectionnez **File → Open Folder**, puis ouvrez le dossier `melee_hackathon_2026`.
+Dans Bob, sélectionnez **File → Open Folder**, puis ouvrez le dossier `ESGI_Arrow_IBM_2026`.
 
 **Ce dépôt contient les supports de préparation.** Le code du MVP sera développé dans un dépôt d'équipe distinct, créé pendant le cadrage. Utilisez alors l'URL communiquée par votre Lead Dev.
 
@@ -161,4 +161,4 @@ Les liens vers `../Défis/`, `../Organisation/` et `../Méthodologie/` supposent
 
 ---
 
-*Hackathon IA for Impact 2026 · La Mêlée Numérique · Toulouse · 9–10 octobre 2026*
+*Hackathon IA for Impact 2026 · ESGI_Arrow_IBM_2026*

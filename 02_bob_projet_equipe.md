@@ -63,7 +63,7 @@ New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\Documents\BobIA"
 Tous les projets clonés s'y retrouveront dans des sous-dossiers :
 ```
 ~/Documents/BobIA/
-├── Melee_Hackaton/              ← ce dossier de préparation
+├── ESGI_Arrow_IBM_2026/              ← ce dossier de préparation
 └── hackathon-2026-equipe/       ← le projet d'équipe créé le soir du hackathon
 ```
 
@@ -92,7 +92,7 @@ Le raccourci pour ouvrir le chat Bob : `Option + Cmd + B` sur Mac, `Ctrl + Alt +
 > 💡 Chacun explore les défis à son propre rythme, selon son rôle. Ce qui limite les doublons, c'est de se répartir les sujets et de partager les synthèses — pas de faire les mêmes recherches en parallèle. Les décisions validées sont à consigner dans `bob-notes.md` (voir §8).
 
 1. Lancer Bob et se connecter avec son IBMid.
-2. **File → Open Folder** → naviguer jusqu'à `~/Documents/BobIA/Melee_Hackaton` (ou l'emplacement où vous avez placé ces fiches) → sélectionner ce dossier.
+2. **File → Open Folder** → naviguer jusqu'à `~/Documents/BobIA/ESGI_Arrow_IBM_2026` (ou l'emplacement où vous avez placé ces fiches) → sélectionner ce dossier.
 3. Vérifier que `Défis/` est visible dans l'explorateur de Bob.
 4. Ouvrir le chat Bob → tester une question en mode Ask.
 
