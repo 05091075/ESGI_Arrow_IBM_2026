@@ -1,129 +1,98 @@
-# Étape 4 — Finalisation & code freeze
+# Étape 4 — Vérification & finalisation
 > Fiche 08 · Mode opératoire
 
 ## 1. Objectif
 
-Transformer le prototype nocturne en démonstration fiable et reproductible. Le code freeze est fixé à 13h dans la méthodologie de travail : après cette heure, aucune nouvelle fonctionnalité.
+Vérifier que le résultat fonctionne de bout en bout et qu'il peut être relancé par quelqu'un d'autre. Cette étape dure **5 minutes pour un challenge de 30 minutes** et **10 minutes pour un challenge d'une heure**. À partir de ce moment, on n'ajoute plus de fonctionnalité.
 
-Le programme officiel indique que la matinée du samedi est dédiée à la finalisation technique et à la préparation des pitchs. *(Source : programme ESGI_Arrow_IBM — à confirmer dans le document officiel.)*
+## 2. Livrables attendus
 
-## 2. Livrables attendus à 13h
+- Le résultat relancé une dernière fois depuis le début, sans erreur.
+- Un court mode d'emploi (quelques lignes) pour le relancer.
+- Les limites connues écrites sans les minimiser.
+- Une version finale identifiée et conservée.
 
-- Démo de bout en bout.
-- Scénario de démo : trois étapes métier principales (éventuellement plusieurs manipulations pour les illustrer).
-- Solutions de secours vérifiées pour chaque dépendance critique (source externe, appel IA, application elle-même).
-- Test dans les conditions réelles de présentation.
-- README permettant de comprendre et relancer le dépôt.
-- Version de démonstration identifiée, testée et partagée au plus tard à 13h.
+## 3. Actions, dans l'ordre
 
-## 3. Actions participant, dans l'ordre
+> **Point de départ :** si le résultat principal ne fonctionne pas encore, appliquer d'abord l'arbitrage de l'étape 3 — réduire le périmètre ou activer la solution de secours. Cette étape n'est pas une nouvelle phase de réalisation.
 
-> **Point de départ à 7h :** si le parcours principal ne fonctionne pas encore, appliquer d'abord l'arbitrage de l'étape 3 — réduire le périmètre ou activer la solution de secours. La finalisation n'est pas une nouvelle phase de développement.
-
-1. Stabiliser le parcours principal ; arrêter l'ajout de fonctionnalités secondaires.
-2. Vérifier l'intégration existante et corriger les défauts du parcours retenu.
-3. Finaliser le scénario utilisateur défini au cadrage.
-4. Vérifier et compléter les solutions de secours préparées aux étapes précédentes.
-5. Tester le parcours complet sur l'appareil de présentation.
-6. Corriger uniquement les bugs bloquants ou les défauts qui empêchent la compréhension.
-7. Mettre à jour le README, commiter et geler le code à 13h.
+1. Arrêter l'ajout de fonctionnalités.
+2. Relancer le résultat depuis le début, dans les conditions où il sera présenté.
+3. Corriger uniquement les défauts qui empêchent d'obtenir ou de comprendre le résultat.
+4. Rédiger un court mode d'emploi : comment lancer, ce que l'on doit voir, ce qui est simulé.
+5. Noter les limites : ce qui ne marche pas, ce qui n'a pas été testé.
+6. Conserver la version finale (copie du dossier ou commit).
 
 ## 4. Usage de Bob
 
-Utiliser **Agent** sur des fichiers ciblés pour corriger, produire les mocks et rédiger la documentation.
+Utiliser **Agent** sur des fichiers ciblés pour corriger et rédiger le mode d'emploi. 📚 [`00_bob_intro.md`](00_bob_intro.md)
 
-### Prompt générique de revue de démo
-
-```
-[Agent] Code freeze à 13h — il reste [HEURES RESTANTES] avant la limite.
-
-Analyse uniquement le parcours de démonstration suivant.
-Ne crée aucune nouvelle fonctionnalité.
-Corrige seulement ce qui empêche le parcours de fonctionner ou d'être compris.
-Si une étape est trop risquée à corriger dans le temps restant, signale-le
-et propose une alternative plus simple qui tient dans le délai.
-
-Parcours minimum (obligatoire — doit fonctionner avant 13h) :
-[ÉTAPES DU PARCOURS MINIMUM — issues du scénario défini à l'étape 1]
-
-Parcours enrichi (bonus uniquement si déjà intégré et stable) :
-[ÉTAPES BONUS — uniquement si développées en étape 3]
-
-Commence par les fichiers suivants : [FICHIERS CONCERNÉS PAR LE PARCOURS]
-Si une cause est située dans un composant appelé ou une configuration hors de ce périmètre,
-étends l'analyse et justifie toute modification hors périmètre.
-
-En sortie, indique pour chaque vérification :
-- commandes exécutées ;
-- résultats constatés ;
-- vérifications non réalisées ;
-- défauts restant connus.
-```
-
-### Prompt générique de README
+### Prompt générique de vérification
 
 ```
-[Agent] Rédige ou mets à jour README.md pour qu'une personne externe puisse :
-1. comprendre le problème et le MVP ;
-2. installer le projet ;
-3. configurer les variables d'environnement sans exposer de secret ;
-4. lancer la démo ;
-5. distinguer les données réelles, les données simulées et les limites connues.
-N'invente aucune commande : vérifie les scripts présents dans le dépôt.
+[Agent] Il reste [TEMPS RESTANT] avant la fin de l'exercice.
+
+Analyse uniquement le résultat suivant. Ne crée aucune nouvelle fonctionnalité.
+Corrige seulement ce qui empêche le résultat de fonctionner ou d'être compris.
+Si une correction est trop risquée dans le temps restant, signale-le
+et propose une alternative plus simple.
+
+Résultat à vérifier : [DÉCRIRE LE RÉSULTAT ET COMMENT IL SE LANCE]
+Commence par les fichiers suivants : [FICHIERS]
+
+En sortie, indique :
+- les commandes exécutées ;
+- les résultats constatés ;
+- les vérifications non réalisées ;
+- les défauts connus qui restent.
 ```
 
-### Gabarit de validation — ce que la sortie doit permettre
+### Prompt générique de mode d'emploi
 
-> La démo est prête pour le pitch si tous les points suivants sont vrais.
+```
+[Agent] Rédige ou mets à jour un fichier README.md court pour qu'une autre personne puisse :
+1. comprendre ce que fait le résultat ;
+2. le lancer ;
+3. distinguer ce qui est réel de ce qui est simulé ;
+4. connaître les limites.
+N'invente aucune commande : vérifie ce qui existe réellement dans le dossier.
+```
 
-**Parcours minimum :**
-- [ ] Exécutable de bout en bout sans manipulation technique imprévue
-- [ ] Reproductible sur au moins deux essais consécutifs dans les conditions de présentation
-- [ ] Scénario remis à zéro entre deux passages : aucun résultat résiduel du premier essai
-- [ ] Données simulées visibles et identifiables comme telles lorsqu'elles sont utilisées
-- [ ] Aucune erreur bloquante pendant le parcours
-- [ ] Testé dans les conditions réelles de présentation
+### Gabarit de validation
 
-**Parcours enrichi (bonus) :**
-- [ ] Fonctionne de façon fiable sur au moins trois essais consécutifs
-- [ ] Si instable : retiré du scénario de démo — ne pas le montrer au jury
+**Résultat :**
+- [ ] Il se lance sans manipulation imprévue
+- [ ] Il fonctionne sur au moins deux essais consécutifs
+- [ ] Aucune erreur bloquante
+- [ ] Les éléments simulés sont visibles et identifiés
 
-**Solutions de secours :**
-- [ ] Source externe indisponible → échantillon local ou réponse enregistrée, identifié comme tel
-- [ ] Appel IA indisponible → résultat préparé, en précisant que le traitement n'est pas exécuté en direct
-- [ ] Application impossible à présenter → captures ou courte vidéo, annoncées comme démonstration enregistrée
-- [ ] Chaque solution de secours a été testée — sa seule présence dans un dossier ne suffit pas
+**Mode d'emploi :**
+- [ ] Les commandes ont été vérifiées dans le dossier
+- [ ] Une autre personne pourrait relancer le résultat sans étape implicite
+- [ ] Les limites sont écrites sans les minimiser
 
-**README :**
-- [ ] Commandes de lancement vérifiées dans le dépôt
-- [ ] Un autre membre peut relancer le projet en suivant le README, sans étapes implicites
-- [ ] Distinction données réelles / simulées explicite
-- [ ] Limites du prototype écrites sans les minimiser
+**Ce qui bloque le passage à la restitution :**
+- Résultat non reproductible
+- Mode d'emploi contenant des commandes inventées ou non vérifiées
+- Éléments simulés non identifiés
 
-**Ce qui bloque le passage au pitch :**
-- Parcours minimum non reproductible
-- Démo non testée dans les conditions de présentation
-- README avec des commandes inventées ou non vérifiées
-- Solution de secours non testée
-
-> **Note** : la sortie réelle de Bob dépend de votre codebase. Vérifiez le parcours vous-même après chaque correction avant de déclarer la démo stable.
+> **Note** : la sortie réelle de Bob dépend de votre dossier. Vérifiez vous-même le résultat après chaque correction avant de le déclarer terminé.
 
 ## 5. Points de vigilance
 
-- Tester dans les conditions de présentation, pas uniquement sur l'ordinateur de développement.
+- Tester dans les conditions réelles de la restitution, pas seulement dans l'éditeur.
 - Ne jamais remplacer une source indisponible par une donnée non signalée.
-- À partir du code freeze, trois niveaux s'appliquent :
-  - **Gel des fonctionnalités** : aucun ajout de périmètre.
-  - **Version de démonstration validée** : un commit précis, testé et conservé.
-  - **Correction exceptionnelle** : uniquement pour un défaut bloquant, avec nouvelle vérification et identification du nouveau commit. Les ajustements de slides peuvent continuer ; les modifications de l'application doivent rester maîtrisées.
-- Les critères officiels d'évaluation incluent impact, faisabilité, viabilité et niveau de réalisation du prototype. *(Source : programme ESGI_Arrow_IBM — à confirmer dans le document officiel.)*
+- À partir de cette étape, trois règles s'appliquent :
+  - **Pas de nouvelle fonctionnalité.**
+  - **Une version finale identifiée** : une copie ou un commit précis, testé et conservé.
+  - **Correction exceptionnelle** : uniquement pour un défaut bloquant, avec nouvelle vérification.
 
 ## 6. Checklist de sortie
 
-- [ ] Le parcours principal a été rejoué dans les conditions de présentation.
-- [ ] La solution de secours a été testée.
-- [ ] Les données et traitements simulés sont clairement annoncés.
-- [ ] Un autre membre peut relancer le projet avec le README.
-- [ ] La version de démonstration est identifiée, partagée et conservée (commit ou tag).
+- [ ] Le résultat a été relancé depuis le début, sans erreur.
+- [ ] Les éléments simulés sont clairement annoncés.
+- [ ] Un mode d'emploi court existe et a été vérifié.
+- [ ] Les limites sont écrites.
+- [ ] La version finale est identifiée et conservée.
 
-La préparation du pitch peut avancer **en parallèle** de ces vérifications : un défaut technique ne doit pas bloquer tout le travail de narration.
+La préparation de la restitution peut avancer **en parallèle** de ces vérifications.

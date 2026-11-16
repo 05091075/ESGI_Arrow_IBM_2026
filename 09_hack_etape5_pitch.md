@@ -1,147 +1,110 @@
-# Étape 5 — Pitch & démo
+# Étape 5 — Restitution
 > Fiche 09 · Mode opératoire
 
 ## 1. Objectif
 
-Présenter une solution compréhensible, crédible et démontrable devant le jury. Le pitch est fixé par l'organisation à 17h ; les quatre heures précédentes servent principalement aux répétitions, au chronométrage et à la préparation des réponses aux questions du jury — pas à recommencer le travail de cadrage.
+Présenter le résultat de façon claire, honnête et courte, puis faire le point sur l'usage de Bob. Cette étape dure **5 minutes pour un challenge de 30 minutes** et **10 minutes pour un challenge d'une heure**. La restitution elle-même tient en **deux à trois minutes**, sauf consigne contraire de l'animateur.
 
-Le jury évalue notamment l'impact, la faisabilité, la viabilité et le niveau de réalisation du prototype.
+## 2. Livrables attendus
 
-## 2. Livrables attendus à 17h
+- Un résumé oral ou écrit en quatre parties : objectif, démarche, résultat, limites.
+- Le résultat montré en fonctionnement, ou une trace de son fonctionnement si le matériel ne le permet pas.
+- Un retour sur l'usage de Bob : ce qui a aidé, ce qui a été corrigé, ce qui a coûté.
+- Les réponses prêtes aux questions probables.
 
-- Plan de présentation validé.
-- Démo répétée dans les conditions réelles.
-- Script partagé et réparti entre les intervenants.
-- Réponses préparées aux questions probables.
-- Vidéo ou scénario de secours si le règlement et le matériel le permettent.
-- Durée ajustée à la consigne communiquée par l'organisation ou le jury.
+## 3. Structure de la restitution
 
-## 3. Structure du pitch
+1. **Objectif** : ce que demandait le challenge, en une phrase.
+2. **Démarche** : les grandes étapes suivies avec Bob (Ask, Plan, Agent).
+3. **Résultat** : montrer ce qui fonctionne, et uniquement ce qui a été vérifié.
+4. **Limites** : ce qui ne marche pas, ce qui est simulé, ce qui n'a pas été testé.
+5. **Retour d'expérience** : un prompt efficace, une erreur rencontrée, le solde de BobCoins consommé.
 
-La méthode recommande cette progression :
-
-1. **Problème** : une douleur réelle et un utilisateur.
-2. **Solution** : une phrase sans jargon.
-3. **Démo** : montrer les trois étapes métier principales.
-4. **Impact** : quel bénéfice concret pour l'utilisateur ; ce qui a été observé et ce qui reste à mesurer.
-5. **Viabilité** : quelles conditions permettraient un usage réel (accès aux données, coûts, intégration, responsable métier).
-6. **Reprise** : comment relancer le prototype et poursuivre le travail après le projet.
-7. **Équipe** : rôles et complémentarité.
-
-> Impact, viabilité et reprise répondent à des questions distinctes. Quelques phrases suffisent pour chacune ; il n'est pas nécessaire d'inventer un modèle économique ni un gain chiffré.
+> Les parties résultat et limites sont les plus importantes. Quelques phrases suffisent ; il n'est pas nécessaire d'inventer un gain chiffré.
 
 ### Actions, dans l'ordre
 
-1. Reprendre l'histoire utilisateur choisie au cadrage — ne pas en inventer une nouvelle.
-2. Mettre à jour le script avec les résultats réellement obtenus depuis le cadrage.
-3. Limiter les slides à une idée par slide.
-4. Écrire les phrases de transition et répartir les rôles.
-5. Répéter au moins trois fois avec le même appareil et les mêmes données, en remettant le scénario à son état initial entre deux passages.
-6. Mesurer la durée de la présentation complète (parole, manipulations et transitions) et supprimer ce qui n'aide pas à comprendre.
-7. Répéter une fois la bascule vers le plan de secours.
-8. Préparer les questions sur données, limites, reprise et impact.
+1. Reprendre l'objectif écrit à l'étape 1 — ne pas en inventer un nouveau.
+2. Choisir ce qui sera montré : le chemin le plus simple qui prouve le résultat.
+3. Répartir la parole si vous êtes plusieurs.
+4. Mesurer la durée totale (parole et manipulations) et supprimer ce qui n'aide pas à comprendre.
+5. Préparer une solution de repli (capture d'écran ou résultat enregistré) si la démonstration en direct échoue.
+6. Préparer deux ou trois réponses aux questions probables.
 
 ## 4. Usage de Bob
 
-Utiliser **Ask** pour challenger le message, puis **Agent** pour rédiger ou modifier les fichiers de pitch. 📚 [`00_bob_intro.md`](00_bob_intro.md)
+Utiliser **Ask** pour challenger le message, puis **Agent** si un fichier de synthèse doit être rédigé. 📚 [`00_bob_intro.md`](00_bob_intro.md)
 
-### Prompt générique de script
-
-```
-[Ask] À partir du MVP, du scénario de démo et des preuves disponibles,
-propose un script oral structuré en : problème, solution, démo (3 étapes métier principales),
-impact, viabilité, reprise, équipe.
-
-Contrainte : 4h de préparation disponibles (Sam 13h → 17h), pitch à 17h.
-Durée maximale de la présentation complète (parole + manipulations + transitions) :
-[DURÉE COMMUNIQUÉE PAR L'ORGANISATION].
-Reste factuel : sépare les résultats démontrés, les hypothèses et ce qui reste à faire.
-N'invente aucun chiffre. Ne présente comme réalisée aucune fonctionnalité non vérifiée ;
-annonce explicitement les perspectives comme des travaux futurs.
-
-[MVP RETENU — sortie de l'étape 1]
-[SCÉNARIO DE DÉMO — parcours minimum validé en étape 4]
-[PREUVES DISPONIBLES — ce qui fonctionne réellement : tests, observations, sources, échanges sponsor]
-[COMMIT DE RÉFÉRENCE — version de démo validée identifiée par son commit]
-```
-
-### Prompt générique de questions jury
+### Prompt générique de résumé
 
 ```
-[Ask] À partir du contexte du projet ci-dessous, liste les dix questions
-difficiles que le jury pourrait poser sur impact, faisabilité, viabilité,
-données, limites, sécurité et reprise du prototype.
-Inclure obligatoirement : « Qu'apporte précisément l'IA dans votre solution ? »
-Pour chaque question, donne une réponse courte fondée uniquement sur ce
-qui est réellement construit, et indique ce qui reste à valider.
-Une réponse peut exposer une hypothèse ou une piste, à condition de ne pas
-la présenter comme acquise.
+[Ask] À partir de l'objectif, du résultat obtenu et des vérifications réalisées,
+propose un résumé oral en quatre parties : objectif, démarche, résultat, limites.
 
-[CONTEXTE DU PROJET — version de démonstration validée, identifiée par son commit,
-et preuves disponibles : tests, observations, sources et échanges avec le sponsor]
+Contrainte : durée maximale [DURÉE COMMUNIQUÉE PAR L'ANIMATEUR, par défaut 2 à 3 minutes].
+Reste factuel : sépare ce qui est démontré, ce qui est une hypothèse et ce qui reste à faire.
+N'invente aucun chiffre. Ne présente comme réalisée aucune fonctionnalité non vérifiée.
+
+[OBJECTIF — sortie de l'étape 1]
+[RÉSULTAT ET VÉRIFICATIONS — sortie de l'étape 4]
+[LIMITES CONNUES]
 ```
 
-### Gabarit de validation — ce que le script doit contenir
+### Prompt générique de questions
 
-> Le script est utilisable pour le pitch si tous les points suivants sont vrais.
+```
+[Ask] À partir du contexte ci-dessous, liste cinq questions que l'on pourrait me poser
+sur le résultat, la démarche, les limites et l'usage de Bob.
+Pour chaque question, propose une réponse courte fondée uniquement sur ce qui a
+réellement été fait, et indique ce qui reste à valider.
+Une réponse peut exposer une hypothèse, à condition de ne pas la présenter comme acquise.
 
-**Structure du pitch :**
-- [ ] Problème en une phrase — une douleur réelle, un utilisateur nommé
-- [ ] Solution en une phrase — sans jargon, sans acronyme non expliqué
-- [ ] Démo en 3 étapes métier principales — uniquement le parcours minimum validé
-- [ ] Impact : bénéfice concret observé, ce qui reste à mesurer
-- [ ] Viabilité : conditions d'un usage réel (données, coûts, intégration, responsable métier)
-- [ ] Reprise : comment relancer et poursuivre après le projet
-- [ ] Équipe : rôles en 15 secondes
+[CONTEXTE — objectif, résultat, vérifications, limites]
+```
+
+### Gabarit de validation
+
+**Structure :**
+- [ ] Objectif en une phrase
+- [ ] Démarche résumée en quelques étapes
+- [ ] Résultat montré tel qu'il fonctionne réellement
+- [ ] Limites annoncées explicitement
+- [ ] Retour d'expérience sur Bob
 
 **Factualité :**
-- [ ] Aucun résultat projeté présenté comme obtenu
-- [ ] Aucune fonctionnalité non vérifiée présentée comme réalisée
-- [ ] Perspectives annoncées explicitement comme travaux futurs
-- [ ] Limites du prototype nommées explicitement (données mock, sources couvertes)
-- [ ] Hypothèses distinguées des faits confirmés
+- [ ] Aucun résultat présenté comme obtenu s'il n'a pas été vérifié
+- [ ] Les éléments simulés sont annoncés comme tels
+- [ ] Les pistes d'amélioration sont présentées comme des travaux futurs
 
 **Durée :**
-- [ ] Présentation complète chronométrée (parole, manipulations et transitions)
-- [ ] Respecte la durée maximale avec une marge pour les imprévus
-- [ ] Vérifier séparément si les questions du jury sont incluses dans le créneau
+- [ ] Présentation chronométrée, manipulations comprises
+- [ ] Respecte la durée annoncée avec une marge
 
-**Questions jury :**
-- [ ] Réponse préparée à « Qu'apporte précisément l'IA dans votre solution ? »
-- [ ] Réponses fondées sur la version de démonstration validée (commit de référence) et les preuves disponibles
-- [ ] Ce qui reste à valider est dit explicitement — pas minimisé
+**Plan de repli :**
+- [ ] Une capture ou un résultat enregistré est prêt
+- [ ] On sait à quel moment basculer vers ce repli
 
-**Plan de secours :**
-- [ ] Qui pilote la démonstration
-- [ ] Qui poursuit l'explication en cas de problème
-- [ ] Critère clair pour basculer vers le secours
-- [ ] Phrase indiquant qu'il s'agit d'un résultat enregistré ou simulé
-- [ ] Bascule répétée au moins une fois — pas seulement le parcours idéal
+**Ce qui bloque une restitution convaincante :**
+- Présenter comme réalisé ce qui n'a pas été vérifié
+- Durée non testée
+- Aucune solution de repli
 
-**Ce qui bloque un passage convaincant :**
-- Script qui présente des fonctionnalités non démontrables comme réalisées
-- Durée de la présentation complète non testée dans les conditions réelles
-- Absence de répétition de la bascule vers le plan de secours
-- Réponses aux questions jury qui inventent des chiffres ou des certitudes
-
-> **Note** : la sortie réelle de Bob dépend de votre MVP et de votre scénario. Vérifiez que le script correspond à ce que vous pouvez réellement montrer, et que la version de référence est bien le commit validé en étape 4 — pas simplement ce qui est présent dans le dépôt.
+> **Note** : la sortie réelle de Bob dépend de votre exercice. Vérifiez que le résumé correspond à ce que vous pouvez réellement montrer.
 
 ## 5. Points de vigilance
 
 - Ne pas transformer une projection en résultat obtenu.
-- Ne pas noyer la démo dans l'architecture : le jury doit comprendre le bénéfice et voir le prototype fonctionner.
-- Répondre aux limites sans les cacher ; elles renforcent la crédibilité si le périmètre est maîtrisé.
-- Éviter toute séance de dépannage en direct devant le jury ; basculer vers le secours selon le critère défini.
-- Vérifier la durée et les consignes exactes de passage auprès de l'organisation : l'organisation fixe l'horaire du pitch, mais ne précise pas ici une durée individuelle de présentation.
+- Ne pas noyer la restitution dans les détails techniques : le public doit comprendre le résultat.
+- Annoncer les limites ; elles renforcent la crédibilité.
+- Éviter toute séance de dépannage en direct ; basculer vers le repli prévu.
+- Vérifier la durée exacte demandée auprès de l'animateur.
 
 ## 6. Checklist de sortie
 
-- [ ] Problème, utilisateur et impact sont compris en moins d'une minute.
-- [ ] Le MVP est formulé sans jargon.
-- [ ] La démo suit l'histoire utilisateur choisie au cadrage.
-- [ ] Les sources, limites et hypothèses sont explicables.
-- [ ] Les perspectives sont annoncées comme travaux futurs, pas comme réalisations.
-- [ ] La présentation complète respecte la durée maximale avec une marge pour les imprévus.
-- [ ] La démo a été répétée au moins trois fois, avec remise à zéro du scénario entre chaque passage.
-- [ ] Chaque membre connaît son rôle ; les intervenants maîtrisent leurs transitions.
-- [ ] Un plan de secours est prêt et a été répété.
+- [ ] L'objectif, le résultat et les limites sont compris en moins d'une minute.
+- [ ] La restitution suit l'objectif écrit à l'étape 1.
+- [ ] Les éléments simulés et les limites sont annoncés.
+- [ ] Les pistes d'amélioration sont présentées comme futures.
+- [ ] La durée est respectée avec une marge.
+- [ ] Une solution de repli est prête.
+- [ ] Le solde de BobCoins consommé est noté. 📚 [`01_bob_bobcoin.md`](01_bob_bobcoin.md)
