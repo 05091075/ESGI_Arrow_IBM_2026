@@ -16,8 +16,8 @@ Les exercices peuvent se faire seul ou en binôme. Ajustez la méthode à la con
 ## 2. Par où commencer ?
 
 1. **Découvrez Bob** avec la [fiche 00](00_bob_intro.md).
-2. **Préparez votre poste** avec la [fiche 04](04_projet_etape0_preprojet.md).
-3. Consultez la [fiche 01](01_bob_bobcoin.md) pour suivre votre consommation et la [fiche 02](02_bob_projet_equipe.md) pour organiser votre dossier de travail, seul ou en binôme.
+2. **Préparez votre poste** avec la [fiche 04](04_projet_etape0_preparation.md).
+3. Consultez la [fiche 01](01_bob_bobcoin.md) pour suivre votre consommation et la [fiche 02](02_bob_organisation.md) pour organiser votre dossier de travail, seul ou en binôme.
 4. Si vous avez besoin de recherche web, consultez la [fiche 03](03_bob_mcp_web.md).
 5. Pendant chaque challenge, suivez les étapes des **fiches 05 à 09**.
 
@@ -57,19 +57,19 @@ Si vous avez déjà cloné les fiches, réutilisez votre copie existante.
 | ---------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [00 — C'est quoi Bob ?](00_bob_intro.md)             | Comprendre les modes, les outils et le vocabulaire.                              |
 | [01 — Gérer ses Bobcoins](01_bob_bobcoin.md)         | Suivre la consommation, maîtriser le contexte et préserver une réserve.          |
-| [02 — Organiser son travail](02_bob_projet_equipe.md) | Ouvrir le bon dossier dans Bob, donner du contexte, travailler en binôme.         |
+| [02 — Organiser son travail](02_bob_organisation.md) | Ouvrir le bon dossier dans Bob, donner du contexte, travailler en binôme.         |
 | [03 — Recherche web avec Tavily](03_bob_mcp_web.md)  | Distinguer lecture d'une URL et recherche web, puis configurer et tester le MCP. |
 
 ### Réaliser un challenge, de l'énoncé au résultat
 
 | Fiche                                                    | Résultat recherché                                                           |
 | -------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [04 — Préparation](04_projet_etape0_preprojet.md)      | Un environnement prêt et un premier test réussi avec Bob.                    |
+| [04 — Préparation](04_projet_etape0_preparation.md)      | Un environnement prêt et un premier test réussi avec Bob.                    |
 | [05 — Comprendre et cadrer](05_projet_etape1_cadrage.md)   | Un objectif en une phrase, un hors périmètre et un critère de réussite.      |
 | [06 — Plan et mise en place](06_projet_etape2_setup.md)    | Un plan en quelques étapes et un premier test minimal qui fonctionne.        |
 | [07 — Réalisation](07_projet_etape3_production.md)         | Le résultat attendu obtenu par petites étapes vérifiées.                     |
 | [08 — Vérification](08_projet_etape4_finalisation.md)      | Un résultat relancé de bout en bout, avec ses limites notées.                |
-| [09 — Restitution](09_projet_etape5_pitch.md)              | Un résumé court, factuel et un retour sur l'usage de Bob.                    |
+| [09 — Restitution](09_projet_etape5_restitution.md)              | Un résumé court, factuel et un retour sur l'usage de Bob.                    |
 
 ## 4. Le déroulé d'un challenge
 

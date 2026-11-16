@@ -144,7 +144,7 @@ Une photo datée et nommée de l'état du projet à un instant précis. `git com
 Une instruction textuelle envoyée directement au système d'exploitation : `npm install` pour installer des dépendances, `git commit` pour enregistrer des modifications, `python script.py` pour lancer un programme. Bob peut exécuter ces commandes à votre place.
 
 **Conflit Git**
-Situation où deux personnes ont modifié la même zone du même fichier, et Git ne sait pas quelle version garder. Git marque les deux versions dans le fichier et demande de choisir manuellement. Rare en solo ; pour l'éviter en binôme, une seule personne modifie les fichiers à la fois (voir fiche `02_bob_projet_equipe.md`).
+Situation où deux personnes ont modifié la même zone du même fichier, et Git ne sait pas quelle version garder. Git marque les deux versions dans le fichier et demande de choisir manuellement. Rare en solo ; pour l'éviter en binôme, une seule personne modifie les fichiers à la fois (voir fiche `02_bob_organisation.md`).
 
 **Contexte de conversation**
 La quantité d'information qu'un modèle IA peut « tenir en tête » pendant un échange. Plus la conversation est longue, plus le contexte se remplit. Ouvrir une nouvelle conversation (`+`) repart avec un contexte vide.
@@ -189,4 +189,4 @@ L'adresse d'une ressource sur internet, comme `https://bob.ibm.com/docs`. `mcp-s
 Une commande spéciale tapée dans le chat Bob. Elle demande à Bob d'analyser le projet ouvert et de générer automatiquement `AGENTS.md` et le dossier `.bob/` avec une configuration de départ adaptée à la stack détectée.
 
 
-*Voir aussi : `01_bob_bobcoin.md` — gérer son budget · `02_bob_projet_equipe.md` — organiser son dossier de travail*
+*Voir aussi : `01_bob_bobcoin.md` — gérer son budget · `02_bob_organisation.md` — organiser son dossier de travail*

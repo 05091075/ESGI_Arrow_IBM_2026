@@ -163,4 +163,4 @@ sur le module « csv » — titre exact et lien direct
 
 ---
 
-*Voir aussi : `01_bob_bobcoin.md` — gérer son budget · `02_bob_projet_equipe.md` — organiser son dossier de travail*
+*Voir aussi : `01_bob_bobcoin.md` — gérer son budget · `02_bob_organisation.md` — organiser son dossier de travail*

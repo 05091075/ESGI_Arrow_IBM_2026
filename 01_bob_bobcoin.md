@@ -168,4 +168,4 @@ Votre solde BobCoin est visible dans **Settings → General**. D'autres indicate
 
 ---
 
-*Voir aussi : [`00_bob_intro.md`](00_bob_intro.md) — c'est quoi Bob · [`02_bob_projet_equipe.md`](02_bob_projet_equipe.md) — organiser son dossier de travail*
+*Voir aussi : [`00_bob_intro.md`](00_bob_intro.md) — c'est quoi Bob · [`02_bob_organisation.md`](02_bob_organisation.md) — organiser son dossier de travail*

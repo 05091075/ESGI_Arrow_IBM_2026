@@ -7,7 +7,7 @@ Arriver au premier challenge avec un environnement fonctionnel. Cette étape se 
 
 ## 2. Livrables attendus
 
-- Bob installé et connexion avec IBMid testée. 📚 [`02_bob_projet_equipe.md`](02_bob_projet_equipe.md)
+- Bob installé et connexion avec IBMid testée. 📚 [`02_bob_organisation.md`](02_bob_organisation.md)
 - Compte GitHub créé, `git` installé (`git --version` dans un terminal) et authentification GitHub testée.
 - Dossier des fiches ouvert dans Bob et mode Ask testé.
 - Connexion au MCP web testée uniquement si le challenge l'exige, selon la fiche 03. 📚 [`03_bob_mcp_web.md`](03_bob_mcp_web.md)
