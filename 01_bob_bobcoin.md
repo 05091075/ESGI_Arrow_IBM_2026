@@ -1,4 +1,4 @@
-# Les BobCoin — Gérer son budget sur 24h
+# Les BobCoin — un exemple pour gérer son budget sur 24h
 > Fiche 01 · Mode opératoire
 
 📚 **Doc officielle** : [BobCoins — IBM Bob](https://bob.ibm.com/docs/ide/account/bobcoins)
