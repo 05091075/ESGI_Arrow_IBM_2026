@@ -20,15 +20,6 @@ Bob peut lire une page web dont tu connais l'adresse — sans Tavily, sans insta
 
 > 📚 La syntaxe `@url` est documentée : [Context mentions — URL mentions](https://bob.ibm.com/docs/ide/features/context-mentions#url-mentions)
 
-### Exemples pour ce projet
-
-| Besoin | Méthode |
-|---|---|
-| Lire la page EPPO dont tu as déjà l'URL | `@https://gd.eppo.int/...` dans Bob |
-| « Quelles bases publiques existent pour les pesticides en Europe ? » | Tavily via Bob |
-| Lire la doc de l'API SNCF Open Data (URL connue) | Google → URL → `@https://...` dans Bob |
-| « Quels formats de justificatifs les mutuelles acceptent-elles ? » | Tavily via Bob |
-
 ---
 
 ## 2. Connecter le serveur Tavily distant
