@@ -19,7 +19,7 @@ Les exemples sont adaptés à une équipe de quatre à cinq personnes. Ajustez l
 2. **Préparez votre poste et vos questions** avec la [fiche 04](04_hack_etape0_prephackathon.md).
 3. Consultez la [fiche 01](01_bob_bobcoin.md) pour suivre votre consommation et la [fiche 02](02_bob_projet_equipe.md) pour organiser le travail en équipe.
 4. Si vous avez besoin de recherche web, consultez la [fiche 03](03_bob_mcp_web.md).
-5. Pendant le hackathon, suivez les étapes des **fiches 05 à 09**.
+5. Pendant le projet, suivez les étapes des **fiches 05 à 09**.
 
 Les fiches sont consultables directement sur GitHub. Pour les ouvrir dans Bob, téléchargez le dépôt ou clonez-le sur votre machine.
 
@@ -64,7 +64,7 @@ Si vous avez déjà cloné les fiches, réutilisez votre copie existante.
 
 | Fiche                                                    | Résultat recherché                                                                         |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [04 — Pré-hackathon](04_hack_etape0_prephackathon.md)    | Un environnement prêt et des questions utiles pour les sponsors.                           |
+| [04 — Pré-projet](04_hack_etape0_prephackathon.md)    | Un environnement prêt et des questions utiles pour les sponsors.                           |
 | [05 — Découverte et cadrage](05_hack_etape1_cadrage.md)  | Un utilisateur, un problème, un MVP et un scénario de démonstration retenus.               |
 | [06 — Architecture et setup](06_hack_etape2_setup.md)    | Un premier parcours connecté, un squelette partagé et le principal risque technique testé. |
 | [07 — Production nocturne](07_hack_etape3_production.md) | La fonction centrale du MVP réalisée et intégrée dans la version commune.                  |
@@ -90,7 +90,7 @@ Le jalon de **13 h** correspond à l'objectif de gel des fonctionnalités retenu
 
 La préparation du pitch commence en parallèle du développement. Une équipe prête peut avancer sans attendre le créneau suivant.
 
-## 5. Bien utiliser Bob pendant le hackathon
+## 5. Bien utiliser Bob pendant le projet
 
 ### Choisir le mode selon le besoin
 

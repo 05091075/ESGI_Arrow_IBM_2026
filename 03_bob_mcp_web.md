@@ -20,7 +20,7 @@ Bob peut lire une page web dont tu connais l'adresse — sans Tavily, sans insta
 
 > 📚 La syntaxe `@url` est documentée : [Context mentions — URL mentions](https://bob.ibm.com/docs/ide/features/context-mentions#url-mentions)
 
-### Exemples pour ce hackathon
+### Exemples pour ce projet
 
 | Besoin | Méthode |
 |---|---|
@@ -35,7 +35,7 @@ Bob peut lire une page web dont tu connais l'adresse — sans Tavily, sans insta
 
 Tavily fournit un **serveur MCP distant** (Streamable HTTP) : aucune installation locale n'est nécessaire.
 
-> ⚠️ **À tester dans Bob avant le hackathon** : la compatibilité du transport Streamable HTTP avec ta version de Bob doit être vérifiée une fois en conditions réelles.
+> ⚠️ **À tester dans Bob avant le projet** : la compatibilité du transport Streamable HTTP avec ta version de Bob doit être vérifiée une fois en conditions réelles.
 
 Créer ou éditer `.bob/mcp.json` à la racine du projet :
 
@@ -158,7 +158,7 @@ Recherche Tavily : URL de la documentation officielle de l'API SNCF
 open data pour les horaires TER — titre exact et lien direct
 ```
 
-### Exemples de prompts pour le hackathon
+### Exemples de prompts pour le projet
 
 **Défi Lallemand — Veille réglementaire :**
 ```
@@ -183,7 +183,7 @@ et justificatifs de remboursement MSA en France — source officielle et URL.
 
 ---
 
-## Checklist avant le hackathon
+## Checklist avant le projet
 
 - [ ] Compte Tavily créé sur [app.tavily.com](https://app.tavily.com)
 - [ ] Clé API `tvly-…` copiée

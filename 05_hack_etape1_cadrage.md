@@ -104,16 +104,16 @@ Avant de passer à l'implémentation (étape 2, 22h), le Lead Dev crée le dép�
 **Lead Dev :**
 
 1. Aller sur [github.com](https://github.com) → **New repository**.
-2. Nom du projet (ex : `hackathon-2026-equipe`), visibilité **Private**, cocher **Add a README file** → **Create repository**.
-3. Copier l'URL HTTPS affichée (bouton **Code** → **HTTPS**), par exemple : `https://github.com/equipe/hackathon-2026-equipe.git`.
+2. Nom du projet (ex : `projet-2026-equipe`), visibilité **Private**, cocher **Add a README file** → **Create repository**.
+3. Copier l'URL HTTPS affichée (bouton **Code** → **HTTPS**), par exemple : `https://github.com/equipe/projet-2026-equipe.git`.
 4. Inviter les membres : **Settings → Collaborators → Add people** → saisir leur nom d'utilisateur GitHub.
 5. Ouvrir un terminal, se placer dans le dossier de travail, cloner le repo en local, puis l'ouvrir dans Bob :
    ```bash
    cd ~/Documents/BobIA          # Mac/Linux
    # cd "$env:USERPROFILE\Documents\BobIA"   # Windows PowerShell
 
-   git clone https://github.com/equipe/hackathon-2026-equipe.git
-   cd hackathon-2026-equipe
+   git clone https://github.com/equipe/projet-2026-equipe.git
+   cd projet-2026-equipe
    # → File → Open Folder dans Bob : sélectionner ce dossier
    ```
 6. Partager l'URL dans le chat d'équipe (WhatsApp, Discord…) pour que les membres puissent vérifier leur accès.

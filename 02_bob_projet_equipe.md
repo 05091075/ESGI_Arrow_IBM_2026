@@ -20,7 +20,7 @@
 
 ---
 
-## Créer son accès Bob (à faire avant le hackathon)
+## Créer son accès Bob (à faire avant le projet)
 
 Avant de pouvoir utiliser Bob, il faut un **IBMid** — le compte qui permet de s'identifier sur les services IBM.
 
@@ -33,7 +33,7 @@ Avant de pouvoir utiliser Bob, il faut un **IBMid** — le compte qui permet de 
 3. Télécharger et installer l'application Bob (macOS ou Windows).
 4. Se connecter avec l'IBMid créé ou existant.
 
-> **Conseil hackathon** : faites ceci la veille. L'activation peut prendre quelques minutes. Si vous avez déjà un IBM Cloud ID, c'est le même IBMid — pas besoin d'en créer un nouveau.
+> **Conseil projet** : faites ceci la veille. L'activation peut prendre quelques minutes. Si vous avez déjà un IBM Cloud ID, c'est le même IBMid — pas besoin d'en créer un nouveau.
 
 ---
 
@@ -43,14 +43,14 @@ Avant de pouvoir utiliser Bob, il faut un **IBMid** — le compte qui permet de 
 
 Avant de cloner ou d'ouvrir quoi que ce soit dans Bob, il faut décider **où ranger le projet** sur votre machine. Un mauvais emplacement (bureau, racine du disque, dossier Téléchargements) complique les commandes et crée de la confusion.
 
-**Conseil : créer un dossier `BobIA` dans votre dossier personnel**, puis y mettre tous les projets du hackathon :
+**Conseil : créer un dossier `BobIA` dans votre dossier personnel**, puis y mettre tous les projets du projet :
 
 ```
 Mac/Linux :   ~/Documents/BobIA/
 Windows :     C:\Users\votre-prenom\Documents\BobIA\
 ```
 
-Créer ce dossier une fois, avant le hackathon :
+Créer ce dossier une fois, avant le projet :
 
 ```bash
 # Mac/Linux — dans n'importe quel terminal :
@@ -64,7 +64,7 @@ Tous les projets clonés s'y retrouveront dans des sous-dossiers :
 ```
 ~/Documents/BobIA/
 ├── ESGI_Arrow_IBM_2026/              ← ce dossier de préparation
-└── hackathon-2026-equipe/       ← le projet d'équipe créé le soir du hackathon
+└── projet-2026-equipe/       ← le projet d'équipe créé le soir du projet
 ```
 
 ### Quel terminal utiliser ?
@@ -79,13 +79,13 @@ Ouvrir le terminal Bob : menu **Terminal → New Terminal**.
 
 ## 2. Ouvrir un projet dans Bob
 
-Bob travaille dans le dossier ouvert sur votre machine. Il n'existe pas de « projet Bob en ligne » : tout passe par un dossier local. Il y a deux situations distinctes dans le hackathon.
+Bob travaille dans le dossier ouvert sur votre machine. Il n'existe pas de « projet Bob en ligne » : tout passe par un dossier local. Il y a deux situations distinctes dans le projet.
 
 Le raccourci pour ouvrir le chat Bob : `Option + Cmd + B` sur Mac, `Ctrl + Alt + B` sur Windows. 📚 [Quickstart Bob](https://bob.ibm.com/docs/ide/getting-started/quickstart)
 
 ---
 
-### Situation A — Avant le hackathon : workspace de préparation individuelle
+### Situation A — Avant le projet : workspace de préparation individuelle
 
 **Pour qui** : chaque membre de l'équipe, individuellement, pour se familiariser avec les fiches et explorer les défis. Pas de GitHub, pas de partage — chacun travaille sur sa propre copie locale des fiches de préparation.
 
@@ -98,7 +98,7 @@ Le raccourci pour ouvrir le chat Bob : `Option + Cmd + B` sur Mac, `Ctrl + Alt +
 
 ---
 
-### Situation B — Le soir du hackathon : rejoindre le projet d'équipe
+### Situation B — Le soir du projet : rejoindre le projet d'équipe
 
 **Pour qui** : les membres de l'équipe (pas le Lead Dev — il crée le projet, voir §11). À faire dès que le Lead Dev a pushé et partagé l'URL dans le chat d'équipe.
 
@@ -116,10 +116,10 @@ cd $env:USERPROFILE\Documents\BobIA   # Windows PowerShell
 Remplacer l'URL ci-dessous par celle communiquée par le Lead Dev dans le chat d'équipe :
 
 ```bash
-git clone https://github.com/equipe/hackathon-2026-equipe.git
-# → crée un sous-dossier hackathon-2026-equipe/ avec tout le projet dedans
+git clone https://github.com/equipe/projet-2026-equipe.git
+# → crée un sous-dossier projet-2026-equipe/ avec tout le projet dedans
 
-cd hackathon-2026-equipe
+cd projet-2026-equipe
 # → entre dans ce dossier
 ```
 
@@ -127,7 +127,7 @@ cd hackathon-2026-equipe
 
 **Étape 3 — Ouvrir le projet dans Bob**
 
-Dans Bob : **File → Open Folder** → naviguer jusqu'à `~/Documents/BobIA/hackathon-2026-equipe` → sélectionner ce dossier.
+Dans Bob : **File → Open Folder** → naviguer jusqu'à `~/Documents/BobIA/projet-2026-equipe` → sélectionner ce dossier.
 
 Si Bob demande *"Do you trust the authors ?"* → **Yes, I trust the authors**.
 
@@ -135,7 +135,7 @@ Si Bob demande *"Do you trust the authors ?"* → **Yes, I trust the authors**.
 
 Vérifier que `AGENTS.md` et `.bob/` sont visibles dans l'explorateur Bob.
 
-> ⚠️ Ouvrir le bon dossier est critique. Si vous ouvrez `BobIA/` au lieu de `BobIA/hackathon-2026-equipe/`, `AGENTS.md` peut ne pas être chargé automatiquement comme contexte projet par Bob.
+> ⚠️ Ouvrir le bon dossier est critique. Si vous ouvrez `BobIA/` au lieu de `BobIA/projet-2026-equipe/`, `AGENTS.md` peut ne pas être chargé automatiquement comme contexte projet par Bob.
 
 ---
 
@@ -160,7 +160,7 @@ Sans configuration partagée, chaque membre de l'équipe Bob :
 ## 5. Architecture des fichiers Bob d'un projet
 
 ```
-hackathon-2026-equipe/
+projet-2026-equipe/
 ├── AGENTS.md                        ← Contexte global projet (chargé par Bob au démarrage)
 ├── docs/
 │   └── bob-notes.md                 ← Décisions d'équipe partagées (voir §8)
@@ -203,7 +203,7 @@ La commande `/init` est à lancer **après avoir créé le squelette applicatif 
 ## Stack
 - Backend : Python / FastAPI
 - Frontend : React + TypeScript
-- IA : API OpenAI (modèle : à confirmer avec votre compte hackathon)
+- IA : API OpenAI (modèle : à confirmer avec votre compte projet)
 - Base de données : SQLite en dev, PostgreSQL en prod
 
 ## Structure
@@ -256,7 +256,7 @@ Les règles projet ont la priorité. Elles s'appliquent à tous les membres de l
 ## Stack technique
 - Backend : Python 3.12 / FastAPI
 - Frontend : React 18 + TypeScript 5
-- IA : appels à l'API OpenAI (modèle : à confirmer avec votre compte hackathon)
+- IA : appels à l'API OpenAI (modèle : à confirmer avec votre compte projet)
 - Base de données : SQLite en dev, PostgreSQL en prod
 
 ## Conventions de code
@@ -320,7 +320,7 @@ Chaque conversation Bob est **locale et privée**. Il n'existe pas de « chat Bo
 
 ### Ce qui mérite d'être partagé
 
-Pendant le hackathon, chacun peut obtenir de Bob des réponses utiles à toute l'équipe : une architecture validée, un prompt qui fonctionne, la cause d'un bug. Partager ces découvertes évite que plusieurs personnes posent la même question et que le contexte commun se fragmente.
+Pendant le projet, chacun peut obtenir de Bob des réponses utiles à toute l'équipe : une architecture validée, un prompt qui fonctionne, la cause d'un bug. Partager ces découvertes évite que plusieurs personnes posent la même question et que le contexte commun se fragmente.
 
 **Ce qui mérite d'être partagé :**
 - Une décision technique validée (stack, format de données, convention)
@@ -340,9 +340,9 @@ Chaque membre poste dans le chat d'équipe les découvertes utiles, en quelques 
 
 **Étape 2 — Une personne désignée consigne les décisions validées**
 
-Une seule personne (le Lead Dev, ou une personne désignée en début de hackathon) est responsable de `docs/bob-notes.md`. Elle lit les décisions partagées dans le chat, consigne celles que l'équipe a validées, et les publie selon la procédure Git commune (voir §11).
+Une seule personne (le Lead Dev, ou une personne désignée en début de projet) est responsable de `docs/bob-notes.md`. Elle lit les décisions partagées dans le chat, consigne celles que l'équipe a validées, et les publie selon la procédure Git commune (voir §11).
 
-> **Pourquoi une seule personne ?** Si plusieurs membres modifient `bob-notes.md` en même temps sur des branches différentes, les décisions se retrouvent dispersées et difficiles à réconcilier sous pression hackathon.
+> **Pourquoi une seule personne ?** Si plusieurs membres modifient `bob-notes.md` en même temps sur des branches différentes, les décisions se retrouvent dispersées et difficiles à réconcilier sous pression projet.
 
 **Étape 3 — Les autres membres récupèrent les notes**
 
@@ -359,7 +359,7 @@ Après fusion de la PR, les notes sont disponibles dans `main`. Elles arrivent l
 - Validé par l'équipe
 
 ## [Sam 02h30] Prompt OpenAI
-Paramètres validés sur nos données de test — vérifier l'identifiant exact du modèle avec votre compte hackathon
+Paramètres validés sur nos données de test — vérifier l'identifiant exact du modèle avec votre compte projet
 
 ## [Sam 07h00] Bug parsing CSV
 Séparateur `;` pas `,` — corrigé dans /backend/parser.py ligne 42
@@ -391,7 +391,7 @@ Certaines règles ne s'appliquent qu'à un mode précis.
 - Proposer 2-3 options quand un arbitrage réel existe
 - Inclure les compromis (trade-offs) pour chaque option
 - Format de sortie : titres H2, listes à puces, tableau comparatif si pertinent
-- Penser "démo hackathon" : préférer la simplicité à l'élégance
+- Penser "démo projet" : préférer la simplicité à l'élégance
 ```
 
 ---
@@ -460,14 +460,14 @@ cd ~/Documents/BobIA        # Mac/Linux
 # 1. Créer le dépôt sur GitHub
 #    → github.com → "New repository" → nom du projet → Create
 #    → inviter les membres de l'équipe (Settings → Collaborators)
-#    → copier l'URL HTTPS affichée (ex : https://github.com/equipe/hackathon-2026-equipe.git)
+#    → copier l'URL HTTPS affichée (ex : https://github.com/equipe/projet-2026-equipe.git)
 
 # 2. Cloner en local (une seule fois — on reste dans BobIA/)
-git clone https://github.com/equipe/hackathon-2026-equipe.git
-cd hackathon-2026-equipe
-# → on est maintenant dans ~/Documents/BobIA/hackathon-2026-equipe/
+git clone https://github.com/equipe/projet-2026-equipe.git
+cd projet-2026-equipe
+# → on est maintenant dans ~/Documents/BobIA/projet-2026-equipe/
 
-# 3. Ouvrir ce dossier dans Bob : File → Open Folder → BobIA/hackathon-2026-equipe
+# 3. Ouvrir ce dossier dans Bob : File → Open Folder → BobIA/projet-2026-equipe
 #    Puis ouvrir le terminal Bob : Terminal → New Terminal
 
 # 4. Créer le squelette minimal du projet avec Bob (mode Agent)
@@ -525,11 +525,11 @@ cd ~/Documents/BobIA        # Mac/Linux
 
 # 1. Télécharger le projet (une seule fois)
 #    Remplacer l'URL par celle communiquée par le Lead Dev dans le chat d'équipe
-git clone https://github.com/equipe/hackathon-2026-equipe.git
-cd hackathon-2026-equipe
-# → on est maintenant dans ~/Documents/BobIA/hackathon-2026-equipe/
+git clone https://github.com/equipe/projet-2026-equipe.git
+cd projet-2026-equipe
+# → on est maintenant dans ~/Documents/BobIA/projet-2026-equipe/
 
-# 2. Ouvrir ce dossier dans Bob : File → Open Folder → BobIA/hackathon-2026-equipe
+# 2. Ouvrir ce dossier dans Bob : File → Open Folder → BobIA/projet-2026-equipe
 #    Si Bob demande "Do you trust the authors ?" → Yes, I trust the authors
 #    Puis ouvrir le terminal Bob : Terminal → New Terminal
 
@@ -557,11 +557,11 @@ cd hackathon-2026-equipe
 #    → La branche est visible sur GitHub = tout fonctionne
 ```
 
-> Si Bob ne mentionne pas la stack ou répond en anglais → vérifier que le bon dossier est ouvert comme workspace (pas `BobIA/` mais bien `BobIA/hackathon-2026-equipe/`).
+> Si Bob ne mentionne pas la stack ou répond en anglais → vérifier que le bon dossier est ouvert comme workspace (pas `BobIA/` mais bien `BobIA/projet-2026-equipe/`).
 
 ---
 
-## Ce que ça change concrètement pendant le hackathon
+## Ce que ça change concrètement pendant le projet
 
 | Sans config partagée | Avec `.bob/` versionné |
 |---|---|

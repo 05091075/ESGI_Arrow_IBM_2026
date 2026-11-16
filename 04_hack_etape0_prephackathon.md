@@ -1,4 +1,4 @@
-# Étape 0 — Pré-hackathon
+# Étape 0 — Pré-projet
 > Fiche 04 · Mode opératoire
 
 ## 1. Objectif
@@ -26,7 +26,7 @@ Arriver au lancement avec un environnement fonctionnel et des questions utiles. 
 
 ### Avant le vendredi — sur sa machine
 
-1. Ouvrir le **workspace de préparation** dans Bob : le dossier contenant ces fiches et les supports `Défis/`. C'est un dossier local sur votre ordinateur — pas encore le projet hackathon, qui sera créé à l'étape 2.
+1. Ouvrir le **workspace de préparation** dans Bob : le dossier contenant ces fiches et les supports `Défis/`. C'est un dossier local sur votre ordinateur — pas encore le projet projet, qui sera créé à l'étape 2.
 2. Tester le mode Ask avec une question courte sur l'un des défis.
 3. Lire les fiches défis disponibles sans choisir trop tôt une solution.
 4. Pour chaque défi, noter : utilisateur, problème, données disponibles, contraintes et question à poser au sponsor.

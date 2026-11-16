@@ -25,7 +25,7 @@ La méthode recommande cette progression :
 3. **Démo** : montrer les trois étapes métier principales.
 4. **Impact** : quel bénéfice concret pour l'utilisateur ; ce qui a été observé et ce qui reste à mesurer.
 5. **Viabilité** : quelles conditions permettraient un usage réel (accès aux données, coûts, intégration, responsable métier).
-6. **Reprise** : comment relancer le prototype et poursuivre le travail après le hackathon.
+6. **Reprise** : comment relancer le prototype et poursuivre le travail après le projet.
 7. **Équipe** : rôles et complémentarité.
 
 > Impact, viabilité et reprise répondent à des questions distinctes. Quelques phrases suffisent pour chacune ; il n'est pas nécessaire d'inventer un modèle économique ni un gain chiffré.
@@ -91,7 +91,7 @@ et preuves disponibles : tests, observations, sources et échanges avec le spons
 - [ ] Démo en 3 étapes métier principales — uniquement le parcours minimum validé
 - [ ] Impact : bénéfice concret observé, ce qui reste à mesurer
 - [ ] Viabilité : conditions d'un usage réel (données, coûts, intégration, responsable métier)
-- [ ] Reprise : comment relancer et poursuivre après le hackathon
+- [ ] Reprise : comment relancer et poursuivre après le projet
 - [ ] Équipe : rôles en 15 secondes
 
 **Factualité :**

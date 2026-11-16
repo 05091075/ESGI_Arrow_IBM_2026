@@ -44,7 +44,7 @@ La préparation des données, les maquettes et le scénario de démonstration n'
 
 ```bash
 # 1. Reprendre le dossier cloné à l'étape 1
-cd hackathon-2026-equipe
+cd projet-2026-equipe
 
 # 2. Créer le squelette minimal (avec Bob en mode Agent — voir § 5)
 #    Critère : le projet démarre avec une commande et un premier échange
@@ -107,18 +107,18 @@ cd "$env:USERPROFILE\Documents\BobIA"   # Windows PowerShell
 **Puis cloner avec l'URL réelle communiquée par le Lead Dev dans le chat d'équipe :**
 
 ```bash
-git clone https://github.com/equipe/hackathon-2026-equipe.git
-cd hackathon-2026-equipe
+git clone https://github.com/equipe/projet-2026-equipe.git
+cd projet-2026-equipe
 ```
 
 > Si vous avez déjà cloné le dépôt, ouvrez votre copie existante et récupérez les mises à jour (`git pull`) ; ne le clonez pas une seconde fois.
 
-**Ouvrir ce dossier précis dans Bob : File → Open Folder → `BobIA/hackathon-2026-equipe`**
+**Ouvrir ce dossier précis dans Bob : File → Open Folder → `BobIA/projet-2026-equipe`**
 
 ```bash
-# 1. (effectué ci-dessus — vous êtes dans hackathon-2026-equipe/)
+# 1. (effectué ci-dessus — vous êtes dans projet-2026-equipe/)
 
-# 2. Ouvrir ce dossier dans Bob (File → Open Folder → BobIA/hackathon-2026-equipe)
+# 2. Ouvrir ce dossier dans Bob (File → Open Folder → BobIA/projet-2026-equipe)
 #    → "Do you trust the authors ?" → Yes, I trust the authors
 
 # 3. Vérifier que .bob/ et AGENTS.md sont présents dans l'explorateur
@@ -144,7 +144,7 @@ Utiliser **Plan** pour l'architecture, puis **Agent** pour créer le squelette e
 
 ```
 [Plan] À partir du MVP retenu à l'étape 1 et de la stack maîtrisée par l'équipe,
-propose une architecture minimale pour un hackathon de 30h.
+propose une architecture minimale pour un projet de 30h.
 
 Contrainte absolue : sur 4h de setup disponibles (Ven 22h → Sam 2h),
 l'objectif est qu'un premier parcours connecté fonctionne — une action utilisateur

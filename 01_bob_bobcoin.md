@@ -95,7 +95,7 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 ✅ **Approche planifiée** :
 ```
 [Ask]   "Quels sont les trade-offs entre JWT et sessions 
-         pour notre API hackathon ?" → ~2 coins
+         pour notre API projet ?" → ~2 coins
 [Plan]  "Conçois l'architecture de l'API : endpoints, 
          modèles, auth — priorité simplicité démo" → ~4 coins
 [Agent] "Implémente exactement ce plan dans /backend/api.py" → ~8 coins
@@ -108,11 +108,11 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 
 ## Budget indicatif sur les 24h
 
-*Si chaque membre dispose de 50 coins — **à vérifier sur votre compte hackathon**. Les enveloppes individuelles ne sont pas nécessairement transférables entre membres.*
+*Si chaque membre dispose de 50 coins — **à vérifier sur votre compte projet**. Les enveloppes individuelles ne sont pas nécessairement transférables entre membres.*
 
 | Étape | Timing | Coins/personne | Mode principal | Ce qu'on fait avec Bob |
 |---|---|---|---|---|
-| **0 — Pré-hackathon** | Avant Ven 17h | 2–3 | Ask | Lire les défis, préparer les questions |
+| **0 — Pré-projet** | Avant Ven 17h | 2–3 | Ask | Lire les défis, préparer les questions |
 | **1 — Cadrage** | Ven 17h–22h | 5–8 | Ask → Plan | Analyser le défi, définir le MVP, choisir l'archi |
 | **2 — Setup** | Ven 22h–Sam 2h | 8–10 | Plan → Agent | Générer la structure du projet, config de base |
 | **3 — Production** | Sam 2h–7h | 10–12 | Agent | Composants, pipeline IA, corrections de bugs |
@@ -123,7 +123,7 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 
 > ⚠️ Le scénario haut (62 coins) peut dépasser une enveloppe individuelle de 50. Dans ce cas : réduire la réserve, mutualiser davantage les requêtes, ou ajuster les étapes les plus consommatrices.
 >
-> La réserve de 5–12 coins est **fortement recommandée**. Les imprévus dans un hackathon ne sont pas optionnels.
+> La réserve de 5–12 coins est **fortement recommandée**. Les imprévus dans un projet ne sont pas optionnels.
 
 > *Ces fourchettes sont indicatives. Ajustez-les aux consommations réellement observées au fil de l'événement.*
 
@@ -143,7 +143,7 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 | **PM/Pitcher** | Analyse défi, plan slides, script pitch | 20–30 coins |
 | **Généraliste** | Renfort où ça bloque, documentation | 20–30 coins |
 
-> *Ces budgets par rôle sont des ordres de grandeur pour guider les priorités — pas des allocations fixes. L'allocation exacte dépend de votre offre hackathon.*
+> *Ces budgets par rôle sont des ordres de grandeur pour guider les priorités — pas des allocations fixes. L'allocation exacte dépend de votre offre projet.*
 
 ### Règle de mutualisation
 > Si deux personnes ont la même question → **une seule pose la question**, partage la réponse dans le chat d'équipe.

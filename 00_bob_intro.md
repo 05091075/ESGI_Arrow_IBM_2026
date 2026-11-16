@@ -89,7 +89,7 @@ Basé sur la [documentation officielle](https://bob.ibm.com/docs/ide) :
 └─────────────────────────────────────────────────┘
 ```
 
-> ⚠️ La position exacte des contrôles dépend de la version de Bob installée. Référez-vous à la [documentation interface](https://bob.ibm.com/docs/ide/features/chat-interface) ou à une capture de la version utilisée pendant le hackathon.
+> ⚠️ La position exacte des contrôles dépend de la version de Bob installée. Référez-vous à la [documentation interface](https://bob.ibm.com/docs/ide/features/chat-interface) ou à une capture de la version utilisée pendant le projet.
 
 - Le **bouton `+`** ouvre une nouvelle conversation
 
@@ -129,13 +129,13 @@ Un programme qui peut prendre des décisions et agir de façon autonome : lire d
 Un fichier texte placé à la racine du projet. Bob le lit au début de chaque conversation pour comprendre le contexte : stack technique, règles de l'équipe, structure du dépôt. C'est la mémoire persistante du projet.
 
 **BobCoin**
-L'unité de budget allouée à chaque équipe pendant le hackathon. Chaque interaction avec Bob consomme des BobCoins en fonction des ressources utilisées (modèle, outils appelés, volume de texte traité).
+L'unité de budget allouée à chaque équipe pendant le projet. Chaque interaction avec Bob consomme des BobCoins en fonction des ressources utilisées (modèle, outils appelés, volume de texte traité).
 
 **Codebase**
 L'ensemble des fichiers source d'un projet logiciel — le code, les fichiers de configuration, les ressources. Quand Bob « lit votre codebase », il parcourt ces fichiers.
 
 **Clone** (Git)
-Télécharger une copie complète d'un dépôt Git depuis GitHub sur votre machine. `git clone https://github.com/equipe/projet.git` copie tout le projet — code, historique, configuration — dans un dossier local. À faire une seule fois par membre, au démarrage du hackathon.
+Télécharger une copie complète d'un dépôt Git depuis GitHub sur votre machine. `git clone https://github.com/equipe/projet.git` copie tout le projet — code, historique, configuration — dans un dossier local. À faire une seule fois par membre, au démarrage du projet.
 
 **Commit** (Git)
 Une photo datée et nommée de l'état du projet à un instant précis. `git commit -m "description"` prend cette photo. Sans commit, une modification existe sur votre machine mais n'est pas enregistrée dans l'historique — et ne peut pas être partagée avec l'équipe. Un commit ne quitte pas votre machine tant que vous n'avez pas fait `git push`.
