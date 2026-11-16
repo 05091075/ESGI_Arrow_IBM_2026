@@ -448,7 +448,7 @@ Sans `push`, personne d'autre ne voit vos modifications. Sans `commit`, vous ne 
 
 ---
 
-### Bloc Lead Dev — à faire une seule fois, dès 22h (fin d'étape 1)
+### Bloc Lead Dev — à faire une seule fois (fin d'étape 1)
 
 > **Si le dépôt n'a pas déjà été créé à l'étape 1** (fiche 05 § 4b), commencer par les étapes 1 et 2 ci-dessous. Si le dépôt existe déjà, passer directement à l'étape 3.
 
