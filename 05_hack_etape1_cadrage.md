@@ -1,5 +1,5 @@
 # Étape 1 — Découverte & cadrage
-> Fiche 05 · Vendredi 9 octobre, 17h → 22h
+> Fiche 05 · Mode opératoire
 
 📚 **Programme** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
 

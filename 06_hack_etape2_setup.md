@@ -1,5 +1,5 @@
 # Étape 2 — Architecture & setup
-> Fiche 06 · Vendredi 9 octobre, 22h → samedi 10 octobre, 2h (enveloppe maximale)
+> Fiche 06 · Mode opératoire
 
 📚 **Programme** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
 

@@ -1,5 +1,5 @@
 # Les BobCoin — Gérer son budget sur 24h
-> Fiche 01 · Hackathon IA for Impact 2026
+> Fiche 01 · Mode opératoire
 
 📚 **Doc officielle** : [BobCoins — IBM Bob](https://bob.ibm.com/docs/ide/account/bobcoins)
 

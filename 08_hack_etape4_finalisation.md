@@ -1,11 +1,11 @@
 # Étape 4 — Finalisation & code freeze
-> Fiche 08 · Samedi 10 octobre, 7h → 13h
+> Fiche 08 · Mode opératoire
 
 ## 1. Objectif
 
 Transformer le prototype nocturne en démonstration fiable et reproductible. Le code freeze est fixé à 13h dans la méthodologie de travail : après cette heure, aucune nouvelle fonctionnalité.
 
-Le programme officiel indique que la matinée du samedi est dédiée à la finalisation technique et à la préparation des pitchs. *(Source : programme Hackathon IA for Impact 2026 — à confirmer dans le document officiel.)*
+Le programme officiel indique que la matinée du samedi est dédiée à la finalisation technique et à la préparation des pitchs. *(Source : programme ESGI_Arrow_IBM — à confirmer dans le document officiel.)*
 
 ## 2. Livrables attendus à 13h
 
@@ -116,7 +116,7 @@ N'invente aucune commande : vérifie les scripts présents dans le dépôt.
   - **Gel des fonctionnalités** : aucun ajout de périmètre.
   - **Version de démonstration validée** : un commit précis, testé et conservé.
   - **Correction exceptionnelle** : uniquement pour un défaut bloquant, avec nouvelle vérification et identification du nouveau commit. Les ajustements de slides peuvent continuer ; les modifications de l'application doivent rester maîtrisées.
-- Les critères officiels d'évaluation incluent impact, faisabilité, viabilité et niveau de réalisation du prototype. *(Source : programme Hackathon IA for Impact 2026 — à confirmer dans le document officiel.)*
+- Les critères officiels d'évaluation incluent impact, faisabilité, viabilité et niveau de réalisation du prototype. *(Source : programme ESGI_Arrow_IBM — à confirmer dans le document officiel.)*
 
 ## 6. Checklist de sortie
 

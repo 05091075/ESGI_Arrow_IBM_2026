@@ -1,5 +1,5 @@
 # Étape 0 — Pré-hackathon
-> Fiche 04 · Hackathon IA for Impact 2026 · Avant vendredi 9 octobre, 17h
+> Fiche 04 · Mode opératoire
 
 📚 **Programme et timing** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md) · [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
 

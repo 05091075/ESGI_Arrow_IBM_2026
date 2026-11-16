@@ -1,5 +1,5 @@
 # C'est quoi Bob ?
-> Fiche 00 · Hackathon IA for Impact 2026 · Bob IDE (vérifié octobre 2025)
+> Fiche 00 · Mode opératoire · Bob IDE (vérifié octobre 2025)
 
 📚 **Doc officielle** : [bob.ibm.com](https://bob.ibm.com) · [IBM Bob — Welcome](https://bob.ibm.com/docs/ide)
 

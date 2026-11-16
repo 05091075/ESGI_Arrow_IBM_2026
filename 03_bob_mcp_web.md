@@ -1,5 +1,5 @@
 # Ajouter la recherche web à Bob — MCP Tavily
-> Fiche 03 · Hackathon IA for Impact 2026
+> Fiche 03 · Mode opératoire
 
 📚 **Configuration MCP Bob** : [Using MCP in Bob](https://bob.ibm.com/docs/ide/configuration/mcp/mcp-in-bob)
 📚 **Mentions URL Bob** : [Context mentions — URL mentions](https://bob.ibm.com/docs/ide/features/context-mentions#url-mentions)

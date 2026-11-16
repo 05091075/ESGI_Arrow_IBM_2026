@@ -1,5 +1,5 @@
 # Étape 5 — Pitch & démo
-> Fiche 09 · Samedi 10 octobre, 13h → 17h · Time to Pitch à 17h
+> Fiche 09 · Mode opératoire
 
 📚 **Programme officiel** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode de pitch** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
 

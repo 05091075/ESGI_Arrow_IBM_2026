@@ -1,5 +1,5 @@
 # Ouvrir Bob et travailler en équipe
-> Fiche 02 · Hackathon IA for Impact 2026
+> Fiche 02 · Mode opératoire
 
 📚 **Documentation Bob** : [Quickstart — Set up your workspace](https://bob.ibm.com/docs/ide/getting-started/quickstart) · [Start a project with `/init`](https://bob.ibm.com/docs/ide/getting-started/tutorials/start-a-project) · [Règles projet](https://bob.ibm.com/docs/ide/configuration/rules) · [Configuration MCP](https://bob.ibm.com/docs/ide/configuration/mcp/mcp-in-bob)
 
