@@ -10,11 +10,11 @@
 
 ## 1. Quand utiliser l'URL directe ou Tavily
 
-Bob peut lire une page web dont tu connais l'adresse — sans Tavily, sans installation. Tavily sert à **trouver des pages** quand tu n'as pas l'URL.
+Bob peut lire une page web dont vous connaissez l'adresse — sans Tavily, sans installation. Tavily sert à **trouver des pages** quand vous n'avez pas l'URL.
 
 | Besoin | Ce qu'il faut utiliser |
 |---|---|
-| Lire une page dont tu connais l'URL | `@https://url-exacte.com` dans le chat Bob |
+| Lire une page dont vous connaissez l'URL | `@https://url-exacte.com` dans le chat Bob |
 | Trouver des pages sur un sujet (pas d'URL connue) | Recherche Tavily via Bob |
 | Interroger une API métier | Appel direct avec ses paramètres et autorisations |
 
@@ -26,9 +26,9 @@ Bob peut lire une page web dont tu connais l'adresse — sans Tavily, sans insta
 
 Tavily fournit un **serveur MCP distant** (Streamable HTTP) : aucune installation locale n'est nécessaire.
 
-> ⚠️ **À tester dans Bob avant le projet** : la compatibilité du transport Streamable HTTP avec ta version de Bob doit être vérifiée une fois en conditions réelles.
+> ⚠️ **À tester dans Bob avant le premier challenge** : la compatibilité du transport Streamable HTTP avec votre version de Bob doit être vérifiée une fois en conditions réelles.
 
-Créer ou éditer `.bob/mcp.json` à la racine du projet :
+Créer ou éditer `.bob/mcp.json` à la racine de votre dossier de travail :
 
 ```json
 {
@@ -68,13 +68,13 @@ Puis relancer le terminal. **Note** : si Bob est lancé depuis le Finder (pas de
 
 **Windows** (PowerShell) :
 ```powershell
-[System.Environment]::SetEnvironmentVariable("TAVILY_API_KEY","tvly-VOTRE-CLE-ICI","User")
+[System.Environment]::SetEnvironmentVariable("TAVILY_API_KEY","<votre clé Tavily>","User")
 ```
 Puis redémarrer Bob.
 
-### Ce qui va dans Git — sans la clé
+### Si vous utilisez Git — sans la clé
 
-Commiter `.bob/mcp.json` uniquement avec `${TAVILY_API_KEY}`, jamais avec la clé réelle. Ajouter au `.gitignore` si tu préfères ne pas partager la config du tout :
+Si le dossier est versionné avec Git, ne commitez `.bob/mcp.json` qu'avec `${TAVILY_API_KEY}`, jamais avec la clé réelle. Ajoutez-le au `.gitignore` si vous préférez ne pas le partager :
 
 ```
 .bob/mcp.json
@@ -82,9 +82,9 @@ Commiter `.bob/mcp.json` uniquement avec `${TAVILY_API_KEY}`, jamais avec la cl�
 
 > 📚 Voir aussi : [Understanding MCP — identifiants](https://bob.ibm.com/docs/ide/configuration/mcp/understanding-mcp)
 
-### Partage en équipe
+### En binôme
 
-Chaque membre crée son propre compte Tavily (plan gratuit : 1 000 crédits/mois). Si l'équipe préfère une clé unique partagée, désigner un responsable qui gère le quota et partager la clé en message privé — jamais dans le dépôt ni dans le chat.
+Chacun crée son propre compte Tavily (plan gratuit : 1 000 crédits/mois). Si vous préférez une clé unique, une seule personne la gère et la communique en message privé — jamais dans un dépôt, un fichier partagé ou un chat de groupe.
 
 ---
 
@@ -99,8 +99,8 @@ Aller dans **Settings → MCP** : le serveur `tavily` doit afficher un statut ve
 Dans le chat Bob :
 
 ```
-Utilise l'outil Tavily pour chercher : quels formats de documents 
-accepte la MSA pour les remboursements de soins en France ?
+Utilise l'outil Tavily pour chercher : quelle est la documentation 
+officielle de Markdown (syntaxe de base) ?
 Indique le titre exact des pages trouvées, leur URL officielle, 
 les conditions d'accès (libre / inscription / payant) 
 et ce que la recherche n'a pas permis de confirmer.
@@ -140,18 +140,18 @@ Demander une URL ou un titre plutôt qu'une synthèse réduit le nombre de reche
 
 ❌ Coûteux :
 ```
-Recherche web sur tout ce qui existe sur les APIs de transport en France
+Recherche web sur tout ce qui existe sur les langages de programmation
 ```
 
 ✅ Économique :
 ```
-Recherche Tavily : URL de la documentation officielle de l'API SNCF 
-open data pour les horaires TER — titre exact et lien direct
+Recherche Tavily : URL de la documentation officielle de Python 
+sur le module « csv » — titre exact et lien direct
 ```
 
 ---
 
-## Checklist avant le projet
+## Checklist avant le premier challenge
 
 - [ ] Compte Tavily créé sur [app.tavily.com](https://app.tavily.com)
 - [ ] Clé API `tvly-…` copiée
@@ -159,8 +159,8 @@ open data pour les horaires TER — titre exact et lien direct
 - [ ] `.bob/mcp.json` créé avec la config du serveur distant
 - [ ] Bob redémarré — serveur `tavily` vert dans Settings → MCP, outils visibles
 - [ ] Test d'appel d'outil réussi (appel `tavily_search` visible dans la conversation)
-- [ ] `.bob/mcp.json` commité **sans la clé** (valeur `${TAVILY_API_KEY}`)
+- [ ] `.bob/mcp.json` commité **sans la clé** (valeur `${TAVILY_API_KEY}`, si le dossier est versionné)
 
 ---
 
-*Voir aussi : `01_bob_bobcoin.md` — gérer son budget · `02_bob_projet_equipe.md` — configuration partagée*
+*Voir aussi : `01_bob_bobcoin.md` — gérer son budget · `02_bob_projet_equipe.md` — organiser son dossier de travail*

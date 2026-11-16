@@ -21,7 +21,7 @@ La première version minimale existe déjà (fiche 06). Il s'agit maintenant de 
 2. Réaliser **une seule étape à la fois** avec Bob, puis la vérifier avant de continuer.
 3. En cas d'erreur, donner à Bob le message exact et le fichier concerné.
 4. Corriger en priorité ce qui empêche d'obtenir le résultat principal ; le reste attend.
-5. Faire un point rapide à mi-parcours (voir § 5) et réduire le périmètre si le temps manque.
+5. Faire un point rapide à mi-parcours (voir section 5) et réduire le périmètre si le temps manque.
 6. En binôme, une personne pilote Bob et l'autre relit chaque résultat.
 
 ## 4. Usage de Bob

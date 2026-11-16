@@ -1,4 +1,4 @@
-# Les BobCoin — un exemple pour gérer son budget sur 24h
+# Les BobCoin — gérer son budget pendant un challenge
 > Fiche 01 · Mode opératoire
 
 📚 **Doc officielle** : [BobCoins — IBM Bob](https://bob.ibm.com/docs/ide/account/bobcoins)
@@ -95,9 +95,9 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 ✅ **Approche planifiée** :
 ```
 [Ask]   "Quels sont les trade-offs entre JWT et sessions 
-         pour notre API projet ?" → ~2 coins
+         pour notre API ?" → ~2 coins
 [Plan]  "Conçois l'architecture de l'API : endpoints, 
-         modèles, auth — priorité simplicité démo" → ~4 coins
+         modèles, auth — priorité simplicité" → ~4 coins
 [Agent] "Implémente exactement ce plan dans /backend/api.py" → ~8 coins
          Exemple : total ~14 coins, résultat aligné dès le premier essai
 ```
@@ -106,47 +106,31 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 
 ---
 
-## Budget indicatif sur les 24h
+## Budget indicatif pour un challenge
 
-*Si chaque membre dispose de 50 coins — **à vérifier sur votre compte projet**. Les enveloppes individuelles ne sont pas nécessairement transférables entre membres.*
+*Votre enveloppe de BobCoins dépend de votre compte — **vérifiez-la dans Settings → General avant de commencer**.*
 
-| Étape | Timing | Coins/personne | Mode principal | Ce qu'on fait avec Bob |
+Un challenge de 30 min à 1 h demande peu de coins s'il est bien conduit. Ordre de grandeur par étape :
+
+| Étape | Fiche | Mode principal | Part du budget | Ce qu'on fait avec Bob |
 |---|---|---|---|---|
-| **0 — Pré-projet** | Avant Ven 17h | 2–3 | Ask | Lire les défis, préparer les questions |
-| **1 — Cadrage** | Ven 17h–22h | 5–8 | Ask → Plan | Analyser le défi, définir le MVP, choisir l'archi |
-| **2 — Setup** | Ven 22h–Sam 2h | 8–10 | Plan → Agent | Générer la structure du projet, config de base |
-| **3 — Production** | Sam 2h–7h | 10–12 | Agent | Composants, pipeline IA, corrections de bugs |
-| **4 — Finalisation** | Sam 7h–13h | 8–10 | Agent | Mock data, intégration, README |
-| **5 — Pitch** | Sam 13h–17h | 5–7 | Ask → Agent | Plan slides, script pitch, réponses jury |
-| **Réserve** | — | 5–12 | — | Imprévus, bugs bloquants |
-| **Total** | | **43–62** | | |
+| **Comprendre et cadrer** | 05 | Ask | ~15 % | Reformuler l'énoncé, repérer les limites |
+| **Plan et mise en place** | 06 | Ask → Plan | ~20 % | Plan en quelques étapes, premier test minimal |
+| **Réalisation** | 07 | Agent | ~35 % | Produire le résultat par petites étapes |
+| **Vérification** | 08 | Agent | ~15 % | Relancer, corriger, noter les limites |
+| **Restitution** | 09 | Ask | ~5 % | Résumé court et retour sur l'usage de Bob |
+| **Réserve** | — | — | ~10 % | Imprévus, bug bloquant |
 
-> ⚠️ Le scénario haut (62 coins) peut dépasser une enveloppe individuelle de 50. Dans ce cas : réduire la réserve, mutualiser davantage les requêtes, ou ajuster les étapes les plus consommatrices.
->
-> La réserve de 5–12 coins est **fortement recommandée**. Les imprévus dans un projet ne sont pas optionnels.
+> La réserve de 10 % est **fortement recommandée** : un imprévu arrive presque toujours.
 
-> *Ces fourchettes sont indicatives. Ajustez-les aux consommations réellement observées au fil de l'événement.*
+> *Ces proportions sont indicatives. Notez votre solde au début et à la fin de chaque challenge pour calibrer le suivant.*
 
 ---
 
-## Stratégie d'équipe : qui dépense quoi
+## Seul ou en binôme
 
-### Principe : un coin dépensé profite à toute l'équipe
-
-Évitez que 4 personnes posent la même question à Bob en parallèle. Désignez **une personne par sujet** :
-
-| Rôle | Utilisation de Bob | Budget indicatif |
-|---|---|---|
-| **Lead Dev** | Architecture, intégration, bugs bloquants | 40–50 coins |
-| **Dev IA/Data** | Pipeline IA, prompts, parsing données | 40–50 coins |
-| **UI/UX** | Génération de composants front, wireframes → code | 30–40 coins |
-| **PM/Pitcher** | Analyse défi, plan slides, script pitch | 20–30 coins |
-| **Généraliste** | Renfort où ça bloque, documentation | 20–30 coins |
-
-> *Ces budgets par rôle sont des ordres de grandeur pour guider les priorités — pas des allocations fixes. L'allocation exacte dépend de votre offre projet.*
-
-### Règle de mutualisation
-> Si deux personnes ont la même question → **une seule pose la question**, partage la réponse dans le chat d'équipe.
+- **Seul** : une conversation par étape, un fichier ciblé par demande.
+- **En binôme** : une personne pilote Bob, l'autre relit et vérifie. Évitez que les deux posent la même question en parallèle — une seule personne interroge Bob, puis partage la réponse utile.
 
 ---
 
@@ -154,7 +138,7 @@ En pratique, l'objectif est : **choisir le mode adapté, fournir le contexte per
 
 ### ❌ Erreur 1 — Conversation fleuve
 Garder la même conversation pendant 6h. Le contexte actif grossit, chaque message coûte de plus en plus cher.
-**Fix** : ouvrir une nouvelle conversation (`+`) dès qu'on change de sujet ou de tâche. Avant de fermer, noter dans le chat d'équipe les décisions prises, les fichiers importants et ce qui reste à faire.
+**Fix** : ouvrir une nouvelle conversation (`+`) dès qu'on change de sujet ou de tâche. Avant de fermer, noter dans un petit fichier les décisions prises, les fichiers importants et ce qui reste à faire.
 
 > 📚 Doc : [Create a new context window](https://bob.ibm.com/docs/ide/getting-started/tutorials/context-window)
 
@@ -170,18 +154,18 @@ Un prompt imprécis génère une réponse inexacte, vous recorrigez, Bob régén
 `"[Agent] Explique-moi comment fonctionne OAuth"` — Agent charge tout le contexte projet pour répondre à une question qui n'en a pas besoin.
 **Fix** : Ask pour les questions, Agent pour les actions.
 
-### ❌ Erreur 5 — Ne pas partager les réponses utiles
-Bob répond brillamment à une question d'architecture → la réponse reste dans le chat d'une seule personne.
-**Fix** : copier les **décisions validées** dans un fichier `docs/bob-notes.md` commité. Toute l'équipe en profite, personne ne repose la même question.
+### ❌ Erreur 5 — Perdre les réponses utiles
+Bob répond brillamment à une question → la réponse reste enfouie dans une conversation.
+**Fix** : copier les **décisions validées** dans un fichier `notes.md` de votre dossier de travail. Vous (et votre binôme) en profitez, personne ne repose la même question.
 
 ---
 
 ## Vérifier son solde
 
-Votre solde BobCoin est visible dans **Settings → General**. D'autres indicateurs de consommation sont disponibles dans le panneau Bob et dans **Bobalytics**. Consultez-le à chaque début d'étape pour ajuster votre stratégie si vous avez pris du retard sur le budget.
+Votre solde BobCoin est visible dans **Settings → General**. D'autres indicateurs de consommation sont disponibles dans le panneau Bob et dans **Bobalytics**. Consultez-le au début et à la fin de chaque challenge pour ajuster votre stratégie.
 
 > 📚 Doc : [Suivi de consommation](https://bob.ibm.com/docs/ide/account/bobcoins#monitoring-your-usage)
 
 ---
 
-*Voir aussi : [`00_bob_intro.md`](00_bob_intro.md) — c'est quoi Bob · [`02_bob_projet_equipe.md`](02_bob_projet_equipe.md) — configuration partagée*
+*Voir aussi : [`00_bob_intro.md`](00_bob_intro.md) — c'est quoi Bob · [`02_bob_projet_equipe.md`](02_bob_projet_equipe.md) — organiser son dossier de travail*
