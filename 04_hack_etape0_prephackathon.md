@@ -1,11 +1,9 @@
 # Étape 0 — Pré-hackathon
 > Fiche 04 · Mode opératoire
 
-📚 **Programme et timing** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md) · [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
-
 ## 1. Objectif
 
-Arriver au lancement avec un environnement fonctionnel et des questions utiles. Le temps de hackathon commence vendredi 9 octobre à 17h. Ce qui doit être prêt avant ce créneau : Bob fonctionnel, Git installé, accès GitHub testé, documents disponibles, questions préparées. Les dépendances du projet, les accès aux données et les outils spécifiques seront organisés après le choix du défi. 📚 [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
+Arriver au lancement avec un environnement fonctionnel et des questions utiles. Le démarrage de l'activité est fixé par l'organisation. Ce qui doit être prêt avant ce créneau : Bob fonctionnel, Git installé, accès GitHub testé, documents disponibles, questions préparées. Les dépendances du projet, les accès aux données et les outils spécifiques seront organisés après le choix du défi.
 
 ## 2. Livrables attendus avant 17h
 

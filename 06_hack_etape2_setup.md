@@ -1,11 +1,9 @@
 # Étape 2 — Architecture & setup
 > Fiche 06 · Mode opératoire
 
-📚 **Programme** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
-
 ## 1. Objectif
 
-Sur les 15 h disponibles entre vendredi 22h et samedi 13h, cette étape en utilise 4. Elle doit donc permettre de **vérifier que le MVP peut être construit et intégré** : architecture décidée, squelette partagé qui démarre, premier parcours connecté fonctionnel (même avec des simulations), risque technique principal testé, tâches attribuées avec leurs interfaces.
+Sur les 15 h disponibles entre 22h et 13h, cette étape en utilise 4. Elle doit donc permettre de **vérifier que le MVP peut être construit et intégré** : architecture décidée, squelette partagé qui démarre, premier parcours connecté fonctionnel (même avec des simulations), risque technique principal testé, tâches attribuées avec leurs interfaces.
 
 « Afficher quelque chose » ne suffit pas. L'objectif est de prouver que la structure choisie permet de réaliser le parcours.
 
@@ -214,7 +212,7 @@ Liste les commandes de validation à exécuter.
 
 ## 6. Points de vigilance
 
-- Ne pas choisir un framework que personne ne maîtrise. 📚 [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
+- Ne pas choisir un framework que personne ne maîtrise.
 - Ne pas placer de clé API dans Git. 📚 [`03_bob_mcp_web.md`](03_bob_mcp_web.md)
 - Ne pas confondre architecture de démonstration et architecture de production.
 - Prévoir un chemin de secours avec des données fictives explicitement marquées lorsque l'accès à une source est indisponible. Vérifier dans la fiche du défi si cette possibilité est autorisée. 📚 [`Défis/`](../Défis/)

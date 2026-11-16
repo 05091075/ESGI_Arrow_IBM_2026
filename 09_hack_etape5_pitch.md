@@ -1,13 +1,11 @@
 # Étape 5 — Pitch & démo
 > Fiche 09 · Mode opératoire
 
-📚 **Programme officiel** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode de pitch** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
-
 ## 1. Objectif
 
-Présenter une solution compréhensible, crédible et démontrable devant le jury. Le Time to Pitch commence samedi à 17h ; les quatre heures précédentes servent principalement aux répétitions, au chronométrage et à la préparation des réponses aux questions du jury — pas à recommencer le travail de cadrage. 📚 [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
+Présenter une solution compréhensible, crédible et démontrable devant le jury. Le pitch est fixé par l'organisation à 17h ; les quatre heures précédentes servent principalement aux répétitions, au chronométrage et à la préparation des réponses aux questions du jury — pas à recommencer le travail de cadrage.
 
-Le jury évalue notamment l'impact, la faisabilité, la viabilité et le niveau de réalisation du prototype. 📚 [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
+Le jury évalue notamment l'impact, la faisabilité, la viabilité et le niveau de réalisation du prototype.
 
 ## 2. Livrables attendus à 17h
 
@@ -28,7 +26,7 @@ La méthode recommande cette progression :
 4. **Impact** : quel bénéfice concret pour l'utilisateur ; ce qui a été observé et ce qui reste à mesurer.
 5. **Viabilité** : quelles conditions permettraient un usage réel (accès aux données, coûts, intégration, responsable métier).
 6. **Reprise** : comment relancer le prototype et poursuivre le travail après le hackathon.
-7. **Équipe** : rôles et complémentarité. 📚 [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
+7. **Équipe** : rôles et complémentarité.
 
 > Impact, viabilité et reprise répondent à des questions distinctes. Quelques phrases suffisent pour chacune ; il n'est pas nécessaire d'inventer un modèle économique ni un gain chiffré.
 
@@ -134,7 +132,7 @@ et preuves disponibles : tests, observations, sources et échanges avec le spons
 - Ne pas noyer la démo dans l'architecture : le jury doit comprendre le bénéfice et voir le prototype fonctionner.
 - Répondre aux limites sans les cacher ; elles renforcent la crédibilité si le périmètre est maîtrisé.
 - Éviter toute séance de dépannage en direct devant le jury ; basculer vers le secours selon le critère défini.
-- Vérifier la durée et les consignes exactes de passage auprès de l'organisation : le document officiel fixe l'horaire du Time to Pitch, mais ne précise pas ici une durée individuelle de présentation. 📚 [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
+- Vérifier la durée et les consignes exactes de passage auprès de l'organisation : l'organisation fixe l'horaire du pitch, mais ne précise pas ici une durée individuelle de présentation.
 
 ## 6. Checklist de sortie
 

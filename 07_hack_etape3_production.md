@@ -1,8 +1,6 @@
 # Étape 3 — Production nocturne
 > Fiche 07 · Mode opératoire
 
-📚 **Programme** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
-
 ## 1. Objectif
 
 Réaliser et intégrer la fonction centrale du MVP sur un cas représentatif. À 7h, le parcours principal doit être exécutable sur la version partagée du projet — pas seulement sur les machines individuelles.
@@ -31,7 +29,7 @@ Cette étape ne repart pas sur la préparation des mocks : le squelette et les p
 3. Faire un point court toutes les deux heures — voir § 5 pour les questions.
 4. Corriger en priorité les blocages du parcours principal — un bug qui empêche le parcours passe avant toute fonctionnalité secondaire.
 5. Intégrer : les changements terminés passent par la procédure de branche et de PR commune ; après fusion, vérifier le parcours sur la version partagée.
-6. Gérer la fatigue : une personne bloquée depuis longtemps peut passer le relais ou dormir plutôt que dégrader le prototype. 📚 [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
+6. Gérer la fatigue : une personne bloquée depuis longtemps peut passer le relais ou dormir plutôt que dégrader le prototype.
 
 ## 4. Usage de Bob
 

@@ -1,11 +1,9 @@
 # Étape 1 — Découverte & cadrage
 > Fiche 05 · Mode opératoire
 
-📚 **Programme** : [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf) · **Méthode** : [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
-
 ## 1. Objectif
 
-Comprendre le besoin avec le sponsor, choisir un défi et formuler un MVP démontrable. Le programme prévoit l'accueil, la présentation des challenges, la constitution des équipes, les échanges avec les sponsors et des temps d'aide à l'idéation jusqu'au Pizza Time. 📚 [`Hackathon IA for Impact _ 30h de challenge IA.pdf`](../Organisation/Hackathon%20IA%20for%20Impact%20_%2030h%20de%20challenge%20IA.pdf)
+Comprendre le besoin avec le sponsor, choisir un défi et formuler un MVP démontrable. Le programme prévoit l'accueil, la présentation des challenges, la constitution des équipes, les échanges avec les sponsors et des temps d'aide à l'idéation.
 
 ## 2. Livrables attendus à 22h
 
@@ -131,7 +129,7 @@ Avant de passer à l'implémentation (étape 2, 22h), le Lead Dev crée le dép�
 
 ## 6. Points de vigilance
 
-- Ne pas commencer l'implémentation tant que l'équipe ne sait pas répondre à « quoi, pour qui, comment le démontrer ? ». 📚 [`methodologie_hackathon_ia_for_impact.md`](../Méthodologie/methodologie_hackathon_ia_for_impact.md)
+- Ne pas commencer l'implémentation tant que l'équipe ne sait pas répondre à « quoi, pour qui, comment le démontrer ? ».
 - Une idée ambitieuse n'est pas un MVP si son parcours ne peut pas être démontré.
 - Pour Lallemand, une donnée extraite ne doit pas être présentée comme validée et toute information doit conserver sa source. 📚 [`Fiche défi Lallemand`](../Défis/Lallemand%20Plant%20Care%20-%20FICHE%20DEFI%20Hackathon%20IA%20FOR%20IMPACT%202026.pptx)
 - Pour iMSA, l'orientation humaine doit rester visible lorsque l'écart nécessite une vérification. 📚 [`iMSA.txt`](../Défis/iMSA.txt)

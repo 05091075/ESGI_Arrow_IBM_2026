@@ -1,11 +1,11 @@
-# Hackathon IA for Impact 2026 — Guide pratique avec IBM Bob
+# ESGI_Arrow_IBM_2026 — Guide pratique avec IBM Bob
 
 > ESGI_Arrow_IBM_2026
 > Dix fiches pour préparer son environnement, construire un MVP en équipe et présenter une démonstration crédible.
 
 ## 1. À quoi sert ce dépôt ?
 
-Ce dépôt rassemble des fiches pratiques pour accompagner les participants au Hackathon IA for Impact 2026 avec [IBM Bob](https://bob.ibm.com).
+Ce dépôt rassemble des fiches pratiques pour accompagner les participants à ESGI_Arrow_IBM_2026 avec [IBM Bob](https://bob.ibm.com).
 
 Vous y trouverez des explications, des prompts à adapter, des procédures de travail en équipe et des critères pour vérifier votre progression.
 
@@ -84,7 +84,7 @@ Les créneaux ci-dessous constituent le parcours de travail proposé dans les fi
 | **Samedi 7 h–13 h**          | Stabiliser | Démonstration et secours testés, README utilisable, version de référence conservée. |
 | **Samedi 13 h–17 h**         | Répéter    | Présentation chronométrée, transitions maîtrisées et réponses au jury préparées.    |
 
-**Repère de planification : vendredi 22 h → samedi 13 h représente 15 heures écoulées**, pauses, intégration et tests compris.
+**Repère de planification : 22 h → 13 h représente 15 heures écoulées**, pauses, intégration et tests compris.
 
 Le jalon de **13 h** correspond à l'objectif de gel des fonctionnalités retenu dans cette méthode. Une correction exceptionnelle d'un défaut bloquant impose une nouvelle vérification de la version de démonstration.
 
@@ -161,4 +161,4 @@ Les liens vers `../Défis/`, `../Organisation/` et `../Méthodologie/` supposent
 
 ---
 
-*Hackathon IA for Impact 2026 · ESGI_Arrow_IBM_2026*
+*ESGI_Arrow_IBM_2026*
