@@ -13,9 +13,9 @@ Ce n'est pas un chatbot. C'est un **agent** capable d'agir sur votre codebase.
 
 ---
 
-## Les fonctions utiles pour notre hackathon
+## Les fonctions utiles pour notre projet
 
-Plutôt qu'un comparatif concurrentiel (les outils évoluent vite et les périmètres sont difficiles à comparer équitablement), voici ce qui compte pour ce hackathon :
+Plutôt qu'un comparatif concurrentiel (les outils évoluent vite et les périmètres sont difficiles à comparer équitablement), voici ce qui compte pour ce projet :
 
 - **Travailler dans le projet** : Bob lit l'ensemble de votre codebase, modifie les fichiers et exécute des commandes — tout depuis le chat.
 - **Partager les consignes** : les fichiers `.bob/rules/` et `AGENTS.md` sont versionnés dans Git et récupérés par chaque membre de l'équipe qui clone le dépôt.
@@ -153,7 +153,7 @@ La quantité d'information qu'un modèle IA peut « tenir en tête » pendant un
 Représentation des modifications entre deux versions d'un fichier : les lignes supprimées et les lignes ajoutées. Bob utilise des diffs pour modifier un fichier de façon ciblée plutôt que de le réécrire entièrement.
 
 **Git**
-Un outil de gestion de versions : il enregistre l'historique des modifications d'un projet sous forme de **commits** (photos datées) et permet à plusieurs personnes de travailler sur les mêmes fichiers sans se marcher dessus. Les fichiers `.bob/rules/` et `AGENTS.md` sont partagés via Git. Les commandes Git essentielles pour ce hackathon : `git clone`, `git pull`, `git add`, `git commit`, `git push` — toutes expliquées dans ce glossaire.
+Un outil de gestion de versions : il enregistre l'historique des modifications d'un projet sous forme de **commits** (photos datées) et permet à plusieurs personnes de travailler sur les mêmes fichiers sans se marcher dessus. Les fichiers `.bob/rules/` et `AGENTS.md` sont partagés via Git. Les commandes Git essentielles pour ce projet : `git clone`, `git pull`, `git add`, `git commit`, `git push` — toutes expliquées dans ce glossaire.
 
 **GitHub**
 Un site web qui héberge des projets Git en ligne. Il permet à une équipe de partager son code, de voir les modifications de chacun et de les fusionner. Concrètement : le projet vit sur GitHub, chaque membre le « clone » (télécharge) sur sa machine, travaille dessus, puis « pousse » (envoie) ses modifications. À ne pas confondre avec Git lui-même : Git est l'outil, GitHub est le service en ligne qui le rend accessible à toute l'équipe.
