@@ -582,7 +582,7 @@ Un `AGENTS.md` de 500 lignes ou des `rules/` verbeux se retrouvent dans chaque r
 
 ---
 
-## 12. Checklist avant de démarrer le hacking (Ven 22h)
+## 12. Checklist avant de démarrer le hacking
 
 ### Lead Dev
 - [ ] Dossier `~/Documents/BobIA/` créé sur sa machine
