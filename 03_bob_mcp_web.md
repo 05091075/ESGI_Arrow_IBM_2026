@@ -149,29 +149,6 @@ Recherche Tavily : URL de la documentation officielle de l'API SNCF
 open data pour les horaires TER — titre exact et lien direct
 ```
 
-### Exemples de prompts pour le projet
-
-**Défi Lallemand — Veille réglementaire :**
-```
-Recherche Tavily : bases de données officielles d'homologation de produits 
-phytosanitaires accessibles par API ou téléchargement pour le Canada 
-(Santé Canada), les États-Unis (EPA) et l'Europe (EPPO).
-Pour chaque source : titre officiel, URL, conditions d'accès, 
-et ce que la recherche n'a pas pu confirmer.
-```
-
-**Défi SNCF — Données horaires :**
-```
-Recherche Tavily : documentation développeur de l'API open data SNCF 
-pour horaires TER Occitanie — URL officielle et conditions d'accès.
-```
-
-**Défi iMSA — Formats documents :**
-```
-Recherche Tavily : spécifications techniques des feuilles de soins 
-et justificatifs de remboursement MSA en France — source officielle et URL.
-```
-
 ---
 
 ## Checklist avant le projet
