@@ -71,7 +71,7 @@ La valeur `${TAVILY_API_KEY}` dans `mcp.json` est une substitution — Bob lit l
 
 **macOS / Linux** — ajouter dans `~/.zshrc` ou `~/.bashrc` :
 ```bash
-export TAVILY_API_KEY="tvly-VOTRE-CLE-ICI"
+export TAVILY_API_KEY="<votre clé Tavily>"
 ```
 Puis relancer le terminal. **Note** : si Bob est lancé depuis le Finder (pas depuis un terminal), la variable peut ne pas être disponible. Dans ce cas, ouvrir Bob depuis un terminal avec `bob .` après avoir sourcé `.zshrc`.
 
