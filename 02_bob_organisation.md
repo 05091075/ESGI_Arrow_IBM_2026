@@ -24,6 +24,7 @@
 Avant de pouvoir utiliser Bob, il faut un **IBMid** — le compte qui permet de s'identifier sur les services IBM.
 
 1. Aller sur **[bob.ibm.com](https://bob.ibm.com)** et cliquer sur **Get free trial**.
+   - **Étudiants : merci d'utiliser le lien suivant : [Accès Bob](https://bob.ibm.com/trial?utm_source=skillsbuild&utm_medium=organic).**
 2. Sur la page de connexion, deux cas :
    - **Vous avez déjà un IBMid** (compte IBM Cloud, IBM Marketplace, etc.) → utilisez-le directement.
    - **Vous n'en avez pas** → l'email saisi lors de l'inscription deviendra votre IBMid. L'accès effectif dépend des abonnements et autorisations associés à votre compte.
